@@ -1,0 +1,85 @@
+/*
+==========================================
+    Contact Area
+==========================================
+*/
+.contact-map{
+    iframe{
+        width: 100% !important; 
+        height: 200px !important;
+    }
+}
+.contact-form{
+	.form-control{
+ 
+	 background-color: $white;
+		padding: 15px;
+		&:focus{
+			border-color:$primary;
+		}
+	}
+}
+.contact-share-social {
+    li {
+        a {
+            width: 30px;
+            height: 30px;
+            border-radius:100%;
+            background-color: rgba($color:#def3ee, $alpha: 1.0);
+            color:$primary;
+            display: block;
+            padding: 4px 0;
+            text-align: center;
+            transition: $transition-base;
+            &:hover{
+              background-color: $info;
+              color: $white;
+            }
+        }
+    }
+}
+.contact-info-item {
+        .contact-wrapper{
+      text-align: center;
+        padding: 25px;
+        position: relative;
+        transition: $transition-base;
+     
+        margin-top:35px;
+        border-radius:$border-radius;
+ 
+    }
+    .contact-content{
+      *{
+        word-break: break-word;
+      }
+    }
+    .contact-icon {
+          background-color: $primary;
+          width: 80px;
+          height: 80px;
+          margin: 0 auto;
+          padding: 20px 0;
+          margin-top: -60px;
+          border-radius: 100px;
+          border: 5px solid $white;
+          box-shadow: $box-shadow;
+          transition: $transition-base;
+        img{
+           width: 32px;
+           height: 32px;
+           object-fit: contain;
+        }
+    }
+    &:hover {
+      .contact-wrapper{
+        box-shadow: $box-shadow-sm;
+        transform: scale(1.01);
+       
+      }
+      .contact-icon {
+        background-color: $info;
+        border-color: $primary;
+      }
+    }
+}

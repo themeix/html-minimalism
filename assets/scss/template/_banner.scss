@@ -1,0 +1,43 @@
+/*
+==========================================
+    Banner Area
+==========================================
+*/
+.post-tab .nav-link.active {
+  position: relative;
+
+  &:after {
+    content: '';
+    position: absolute;
+    width: 40px;
+    height: 2px;
+    background-color: $primary;
+    display: block;
+    transition: all .2s ease-in-out;
+    position: absolute;
+    bottom: -9px;
+  }
+}
+
+.page-link {
+  background-color: transparent;
+  border: 0;
+
+  &:hover {
+    color: $danger;
+    background: transparent;
+
+  }
+}
+
+.back-to-top {
+  position: relative;
+  i{
+    background: $white;
+    padding: 25px;
+    top: -37px;
+    position: absolute;
+    clip-path: polygon(49% 1%, 100% 50%, 50% 100%, 0% 50%);
+  }
+
+}

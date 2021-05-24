@@ -1,0 +1,43 @@
+/*
+==========================================
+    Call To Action Area
+==========================================
+*/
+.call-to-action-form{
+    max-width: 800px;
+    input{
+      background-color:$white;
+      margin-right: 15px;
+      border:0;
+      border-radius:$border-radius !important;
+      &:focus{
+         background-color:$white;
+      }
+    }
+    button{
+       padding: 15px 30px;
+       border-radius:$border-radius !important;
+       &:hover{
+          background-color: $info;
+          border-color: $info;
+          color: $white;
+       }
+    }
+}
+
+@media all and (max-width: 767px) {
+   .call-to-action-form{
+      .input-group{
+         display: block;
+         input{
+            width: 100%;
+            margin-bottom: 10px;
+         }
+         button{
+            display: block;
+            width: 100%;
+         }
+      }
+   }
+
+}

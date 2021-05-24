@@ -1,0 +1,29 @@
+/*
+==========================================
+    Counter Area
+==========================================
+*/
+.counter-item{
+    display: inline-block;
+    .counter-icon{
+        width: 100px;
+        height: 100px;
+        padding: 34px 0;
+        background-image: url(../images/counter-shape.png);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        text-align: center;
+        float: left;
+      img{ 
+         width: 32px;
+         height: 32px;
+         object-fit: contain;
+      }
+    }
+    .counter-content{
+          width: calc(100% - 100px);
+          float: left;
+          padding-left: 20px;
+    }
+}

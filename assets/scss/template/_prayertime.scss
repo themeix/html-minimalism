@@ -1,0 +1,89 @@
+/*
+==========================================
+    Prayer Time Area
+==========================================
+*/
+.prayer-time-area{
+  overflow:hidden ; 
+}
+.prayer-timeline{
+    background-color:$white;
+    padding: 40px 5px;
+    text-align: center;
+    border-radius: $border-radius;
+    position:relative;
+    .prayer-wrapper{
+      position: relative;
+      z-index: 2;
+    }
+    &:before, &:after{
+    content: "";
+    width: 70px;
+    height: 70px;
+    display: block;
+    background-image: url(../images/prayer-shape.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    }    
+    &:after{
+    background-image: url(../images/prayer-shape2.png);
+    bottom: 10px;
+    right: 10px; 
+    top: auto;
+    left: auto;
+    }
+} 
+.prayer-slider .slick-list {
+  margin: 0 -15px;
+}
+.prayer-slider .item{
+  padding: 0 15px;
+}
+.prayer-slider{  
+  margin:0; 
+   .slick-prev,.slick-next{
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: - 20px; 
+     background:transparent;
+     border:0;
+     color:$info;
+     opacity: 0;
+     visibility: hidden;
+     padding: 2rem;
+     transition: $transition-base;
+     z-index: 22;
+     font-weight: $font-weight-bold;
+     font-size: $h4-font-size;
+   }
+   .slick-next{
+       right: - 20px;
+       left: auto;
+   }
+   &:hover{
+    .slick-prev,.slick-next{
+        visibility: visible;
+        opacity: 1;
+    }
+   }
+
+}
+@media all and (max-width: 991px) {
+  .prayer-timeline-container{
+    .col{
+      flex:none;
+    }
+    .prayer-timeline{
+      margin: 12px 0;
+      padding: 40px 30px;
+  
+      h2.h1{
+        font-size: 20px;
+      }
+    }
+  }
+}

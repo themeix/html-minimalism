@@ -1,0 +1,109 @@
+/*
+==========================================
+    Course Area
+==========================================
+*/
+.course-item{
+   position: relative;
+   overflow: hidden;
+   border-radius: $border-radius;
+   img{
+       width:100%;
+       transition: $transition-base;
+       object-fit:cover;
+   }
+   .course-image{
+     height:300px;
+   }
+    .course-image-big{
+      height:600px;
+    }
+   .course-overlay{
+       position:absolute;
+       right:0;
+       left:0;
+       bottom:-0;
+       z-index: 2;
+       background-color:rgba($secondary,0.5);
+       padding: 20px;
+       transition: $transition-base; 
+       .course-content{
+           display: flex;
+           justify-content: space-between;
+           align-items: center;
+           .course-author{
+               display: inline-block;
+               img{
+                  width: 40px;
+                  height: 40px;
+                  border-radius: 100px;
+                  float: left;
+               }
+               .info{
+                  float: left;
+                  margin-left: 20px;
+               }
+           }
+          .price{
+              font-size:$h5-font-size;
+          }
+       }
+   }
+   &:hover{
+      > img{
+        transform: scale(1.03,1.1);
+      }
+      .course-overlay{
+        bottom:10px;
+      }
+   }
+}
+@media all and (max-width: 991px) {
+  .course-item{
+    .course-overlay{
+       padding:20px;
+    }
+  }
+} 
+.course-check-list{
+  padding:0;
+  list-style: none;
+  li{
+    position: relative;
+    margin:4px 0;
+    padding-left: 25px;
+    &:before{
+      content: "\f00c";
+      font-family: 'Font Awesome 5 Free';
+      font-weight:900;
+      color: $primary;
+      margin-right: 10px;;
+      position: absolute;
+      left: 0;
+    }
+  }
+}
+.course-feature{
+  padding:20px;
+  box-shadow:$box-shadow;
+ 
+ 
+  transition: $transition-base;
+  &:hover{
+    transform: scale(1.02);
+    box-shadow: $box-shadow-lg;
+  }
+}
+.course-block-author{
+  display: flex;
+  align-items: center;
+  img{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    margin-right: 10px;
+  }
+  .info{
+    width: calc(100% - 30px);
+  }
+}

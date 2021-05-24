@@ -1,0 +1,70 @@
+/*
+==========================================
+    Donate Area
+==========================================
+*/
+.donate-circle-wrapper{
+   display: flex;
+   flex-wrap: wrap;
+}
+.donate-circle {
+   position: relative;
+   width: 114px;
+   height: 114px;
+   margin-right:10px;
+   margin-bottom:10px;
+   svg {
+     width: 114px;
+     height: 114px;
+   }
+   .bg {
+     fill: none;
+     stroke-width: 5px;
+     stroke: $info;
+   }
+   .progress {
+     fill: none;
+     stroke-width: 5px;
+     stroke: $white;
+     stroke-linecap: round;
+     stroke-dasharray: 326.56;
+     transform: rotate(-90deg);
+     transform-origin: 50% 50%;
+     animation: big 1.5s ease-in-out;
+   }
+ 
+   .text {
+     position: absolute;
+     width: 100%;
+     top: 30px;
+     font-size: $h3-font-size;
+     line-height: 1.2;
+     text-align: center;
+     color: $white;
+     .small {
+       font-size: $font-size-sm;
+       color: $white;
+     }
+   }
+ } 
+.donate-image{
+  border:5px solid $white;
+  border-radius: $border-radius;
+  box-shadow: $box-shadow;
+}
+.donate-content{
+  .btn{
+    &:hover{
+      background-color: $info !important;
+      color: $white !important;
+    }
+  }
+} 
+@media all and (max-width: 991px) {
+  .donate-content{
+    text-align: center;
+  }
+  .donate-circle-wrapper{
+    justify-content: center;
+  }
+}
