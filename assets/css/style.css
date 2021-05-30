@@ -10156,6 +10156,38 @@ li#togglebar {
     Faq Area
 ==========================================
 */
+/*
+==========================================
+    Faq Area
+==========================================
+*/
+.faq-accordion .card {
+  border: 0;
+  margin-bottom: 1rem; }
+  .faq-accordion .card .card-header {
+    border: 0;
+    padding: 0; }
+    .faq-accordion .card .card-header button {
+      width: 100%;
+      text-align: left;
+      padding: .5rem 1rem;
+      background-color: #f5f5f5;
+      position: relative;
+      border-radius: 10px;
+      border: 1px solid #f5f5f5;
+      font-weight: 700; }
+      .faq-accordion .card .card-header button:after, .faq-accordion .card .card-header button:before {
+        content: '';
+        width: 1rem;
+        height: .1rem;
+        display: block;
+        position: absolute;
+        right: 1rem;
+        top: 1.3rem;
+        background-color: #3B5EC7; }
+      .faq-accordion .card .card-header button[aria-expanded="false"]:after {
+        transform: rotate(90deg); }
+
 .switch {
   position: relative;
   display: inline-block;
@@ -10360,3 +10392,9 @@ input:checked + .slider:before {
     position: absolute;
     left: -20px;
     bottom: -20px; }
+
+.recent-posts-3-image img {
+  height: 155px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  max-width: 155px; }
