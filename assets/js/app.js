@@ -41,45 +41,8 @@
     meanMenuClose: "<span></span><span></span><span></span>",
     siteLogo: "<a class='navbar-mobile' href='index.html'><img src='assets/images/header-logo-mobile.png' alt='images'></a>",
   });
-  /* Banner Slider */
-  function bannerslider() {
-    var BasicSlider = $('.banner-slider');
-    BasicSlider.on('init', function (e, slick) {
-      var $firstAnimatingElements = $('.banner-item:first-child').find('[data-animation]');
-      doAnimations($firstAnimatingElements);
-    });
-    BasicSlider.on('beforeChange', function (e, slick, currentSlide, nextSlide) {
-      var $animatingElements = $('.banner-item[data-slick-index="' + nextSlide + '"]').find('[data-animation]');
-      doAnimations($animatingElements);
-    });
-    BasicSlider.slick({
-      autoplay: true,
-      autoplayspeed: 2000,
-      infinite: false,
-      dots: true,
-      fade: true,
-      arrows: true,
-      speed: 0,
-      prevArrow: $('.banner-prev'),
-      nextArrow: $('.banner-next'),
-    });
 
-    function doAnimations(elements) {
-      var animationEndEvents = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
-      elements.each(function () {
-        var $this = $(this);
-        var $animationDelay = $this.data('delay');
-        var $animationType = 'animated ' + $this.data('animation');
-        $this.css({
-          'animation-delay': $animationDelay,
-          '-webkit-animation-delay': $animationDelay
-        });
-        $this.addClass($animationType).one(animationEndEvents, function () {
-          $this.removeClass($animationType);
-        });
-      });
-    }
-  }
+
 
 
   /*  Aos  */
@@ -126,4 +89,24 @@
     }
   });
 
+
+
+
+
 }(jQuery));
+
+function check() {
+  var checkBox = document.getElementById("checbox");
+  var text1 = document.getElementsByClassName("text1");
+  var text2 = document.getElementsByClassName("text2");
+
+  for (var i = 0; i < text1.length; i++) {
+    if (checkBox.checked == true) {
+      text1[i].style.display = "block";
+      text2[i].style.display = "none";
+    } else if (checkBox.checked == false) {
+      text1[i].style.display = "none";
+      text2[i].style.display = "block";
+    }
+  }
+}

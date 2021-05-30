@@ -9909,6 +9909,12 @@ li#togglebar {
     -webkit-clip-path: polygon(49% 1%, 100% 50%, 50% 100%, 0% 50%);
             clip-path: polygon(49% 1%, 100% 50%, 50% 100%, 0% 50%); }
 
+.recent-posts img {
+  width: 40px;
+  height: 40px;
+  -o-object-fit: cover;
+     object-fit: cover; }
+
 /*
 ==========================================
     About Area
@@ -10150,6 +10156,102 @@ li#togglebar {
     Faq Area
 ==========================================
 */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px; }
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #000000;
+  -webkit-transition: 0.4s;
+  transform: translate(0px, 0px);
+  transition: 0.6s ease transform, 0.6s box-shadow; }
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: #ffffff;
+  transition: 0.4s; }
+
+input:checked + .slider {
+  background-color: #3B5EC7; }
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #3B5EC7; }
+
+input:checked + .slider:before {
+  transform: translateX(26px); }
+
+.slider.round {
+  border-radius: 34px; }
+
+.slider.round:before {
+  border-radius: 50%; }
+
+.pricing-box {
+  box-shadow: 5px 0 30px 20px rgba(0, 0, 0, 0.05);
+  position: relative; }
+  .pricing-box .pricing-list i {
+    font-size: 10px; }
+
+.ribbon-top-right {
+  top: -10px;
+  right: -10px; }
+  .ribbon-top-right span {
+    left: -25px;
+    top: 30px;
+    transform: rotate(45deg); }
+  .ribbon-top-right::after {
+    bottom: 0;
+    right: 0;
+    border-top-color: transparent;
+    border-right-color: transparent; }
+  .ribbon-top-right::before {
+    border-top-color: transparent;
+    border-right-color: transparent; }
+
+.ribbon {
+  width: 129px;
+  height: 129px;
+  overflow: hidden;
+  position: absolute; }
+  .ribbon span {
+    position: absolute;
+    display: block;
+    width: 204px;
+    padding: 5px 0;
+    background-color: #3B5EC7;
+    box-shadow: 5px 0 30px 20px rgba(0, 0, 0, 0.05);
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center; }
+  .ribbon::before {
+    position: absolute;
+    z-index: -1;
+    content: '';
+    display: block;
+    border: 5px solid #3B5EC7; }
+  .ribbon::after {
+    position: absolute;
+    z-index: -1;
+    content: '';
+    display: block;
+    border: 5px solid #3B5EC7; }
+
+.tag-countent {
+  box-shadow: 5px 0 30px 20px rgba(0, 0, 0, 0.05); }
+
 /*
 ==========================================
     Contact Area
