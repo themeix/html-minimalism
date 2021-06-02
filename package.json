@@ -22,7 +22,7 @@
   },
   "dependencies": {
     "jquery": "^3.5.1",
-    "bootstrap": "^5.0.0-beta3",
+    "bootstrap": "^5.0.1",
     "@popperjs/core": "^2.6.0",
     "jquery.easing": "^1.4.1",
     "szmigiel-meanmenu": "^1.0.2",

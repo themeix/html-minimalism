@@ -686,6 +686,36 @@ Primary use:  Religion Website
   --bs-light: #dcf7f6;
   --bs-dark: #000000; }
 
+/* ============================================== 
+  Media Query : 1200px
+============================================== */
+/* ============================================== 
+  Media Query : 991px
+============================================== */
+@media only screen and (max-width: 991px) {
+  .navbar-collapse {
+    background-color: #ffffff;
+    padding: 15px;
+    box-shadow: 5px 0 30px 20px rgba(0, 0, 0, 0.05);
+    margin-top: 9px; }
+  .nav-right {
+    display: none; } }
+
+/* ============================================== 
+  Media Query : 767px
+============================================== */
+@media only screen and (max-width: 767px) {
+  .banner-area {
+    padding: 10% 0px; }
+  .post-item-img {
+    width: 30%;
+    background-position: center; }
+  .about-banner-area {
+    min-height: 40vh; } }
+
+/* ============================================== 
+  Media Query : 575px
+============================================== */
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -745,8 +775,8 @@ hr:not([size]) {
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   margin-top: 0;
   margin-bottom: 0.46875rem;
-  font-family: "Open Sans", sans-serif;
-  font-weight: 700;
+  font-family: "Manrope", sans-serif;
+  font-weight: 800;
   line-height: 1.2;
   color: #2c323c; }
 
@@ -2996,7 +3026,7 @@ textarea.form-control-lg {
 
 .btn {
   display: inline-block;
-  font-weight: 600;
+  font-weight: 700;
   line-height: 1.6;
   color: #2c323c;
   text-align: center;
@@ -9535,8 +9565,10 @@ img {
     transition-property: transform;
     transition-duration: 0.3s;
     transition-timing-function: ease-out; }
-  .btn:hover:before {
-    transform: scaleX(1); }
+  .btn:hover {
+    color: #ffffff; }
+    .btn:hover:before {
+      transform: scaleX(1); }
 
 .border-radius-25 {
   border-radius: 25px; }
@@ -9549,6 +9581,9 @@ img {
 
 .mvh-100 {
   min-height: 100vh; }
+
+.opacity-7 {
+  opacity: .7; }
 
 /*
 ==========================================
@@ -9569,7 +9604,7 @@ img {
       color: #2c323c;
       transition: all 0.2s ease-in-out;
       font-weight: 700;
-      font-family: "Open Sans", sans-serif; }
+      font-family: "Manrope", sans-serif; }
       .header-navbar .navbar-nav li .nav-link:hover {
         color: #3B5EC7; }
     .header-navbar .navbar-nav li .toogler {
