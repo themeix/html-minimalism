@@ -10355,70 +10355,8 @@ input:checked + .slider:before {
 .tag-countent {
   box-shadow: 5px 0 30px 20px rgba(0, 0, 0, 0.05); }
 
-/*
-==========================================
-    Contact Area
-==========================================
-*/
-.contact-map iframe {
-  width: 100% !important;
-  height: 200px !important; }
-
-.contact-form .form-control {
-  background-color: #ffffff;
-  padding: 15px; }
-  .contact-form .form-control:focus {
-    border-color: #3B5EC7; }
-
-.contact-share-social li a {
-  width: 30px;
-  height: 30px;
-  border-radius: 100%;
-  background-color: #def3ee;
-  color: #3B5EC7;
-  display: block;
-  padding: 4px 0;
-  text-align: center;
-  transition: all 0.2s ease-in-out; }
-  .contact-share-social li a:hover {
-    background-color: #04B6F2;
-    color: #ffffff; }
-
-.contact-info-item     .contact-wrapper {
-  text-align: center;
-      padding: 25px;
-      position: relative;
-      transition: all 0.2s ease-in-out;
-  margin-top: 35px;
-  border-radius: 10px; }
-
-.contact-info-item .contact-content * {
-  word-break: break-word; }
-
-.contact-info-item .contact-icon {
-      background-color: #3B5EC7;
-      width: 80px;
-      height: 80px;
-      margin: 0 auto;
-  padding: 20px 0;
-  margin-top: -60px;
-      border-radius: 100px;
-      border: 5px solid #ffffff;
-      box-shadow: 5px 0 30px 20px rgba(0, 0, 0, 0.05);
-      transition: all 0.2s ease-in-out; }
-  .contact-info-item .contact-icon img {
-    width: 32px;
-    height: 32px;
-    -o-object-fit: contain;
-       object-fit: contain; }
-
-.contact-info-item:hover .contact-wrapper {
-  box-shadow: 3px 0 20px 10px rgba(0, 0, 0, 0.05);
-  transform: scale(1.01); }
-
-.contact-info-item:hover .contact-icon {
-  background-color: #04B6F2;
-  border-color: #3B5EC7; }
+.contact-address-box {
+  box-shadow: 5px 0 30px 20px rgba(0, 0, 0, 0.05); }
 
 .entry-navigation-img img {
   width: 126px;
