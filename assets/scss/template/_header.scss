@@ -316,7 +316,7 @@
 // loading 
 
 #loading {
-    background-color:$dark;
+    background-color:$white;
     height: 100%;
     width: 100%;
     position: fixed;
@@ -363,10 +363,10 @@
 /*----------------------------------------------
     # Nav bar 
 ----------------------------------------------*/
-li#togglebar{
-    background:$primary;
+.mean-container .mean-bar .meanmenu-reveal.meanclose span:nth-child(2) {
+    opacity: 0;
 }
-  
+ 
  
   .header-area {
 	.navbar-collapse {
@@ -399,23 +399,19 @@ li#togglebar{
 					width: 40px;
 					height: 40px;
                     border-radius: 5px;
-					background: var(--main-color);
-					color: #fff;
+				
 
 					text-align: center;
 					transition: all 0.3s ease-in;
 					.line {
 						display: inline-block;
 						width: 20px;
-						height: 2px;
+						height: 3px;
 						margin: 2px 0;
 						transition: 0.5s;
-						background: #fff;
+						background:$dark;
 					}
-					&:hover {
-						background: var(--hover-color);
-						color: #fff;
-					}
+					
 				}
 				li.togglebar.active {
 					.line {
