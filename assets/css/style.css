@@ -5799,7 +5799,7 @@ textarea.form-control-lg {
   box-shadow: 5px 0 30px 20px rgba(0, 0, 0, 0.05) !important; }
 
 .shadow-sm {
-  box-shadow: 0px 1px 11px 1px rgba(0, 0, 0, 0.28) !important; }
+  box-shadow: 0px 5px 6px rgba(0, 0, 0, 0.25) !important; }
 
 .shadow-lg {
   box-shadow: rgba(17, 12, 46, 0.15) 0 10px 101px 0 !important; }
@@ -10356,7 +10356,7 @@ input:checked + .slider:before {
   box-shadow: 5px 0 30px 20px rgba(0, 0, 0, 0.05); }
 
 .contact-address-box {
-  box-shadow: 0px 1px 11px 1px rgba(0, 0, 0, 0.28); }
+  box-shadow: 0px 5px 6px rgba(0, 0, 0, 0.25); }
 
 .entry-navigation-img img {
   width: 126px;
