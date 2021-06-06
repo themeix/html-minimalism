@@ -27,14 +27,10 @@
     "jquery.easing": "^1.4.1",
     "szmigiel-meanmenu": "^1.0.2",
     "aos": "^2.3.4",
-    "slick-carousel": "^1.8.1",
     "prismjs": "^1.22.0",
-    "masonry-layout": "^4.2.2",
     "animate.css": "^3.7.2",
     "@fortawesome/fontawesome-free": "^5.15.1",
-    "magnific-popup": "^1.1.0",
-    "typography-fix": "^1.1.9",
-    "minimusic": "^1.1.0"
+    "typography-fix": "^1.1.9"
   },
   "devDependencies": {
     "ansi-colors": "^4.1.1",

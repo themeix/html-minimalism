@@ -3,15 +3,6 @@
 
 
 
-
-  /*  Preloader */
-  $(window).on('load', function () {
-    var preLoder = $(".preloader");
-    preLoder.fadeOut(1500);
-  });
-
-
-
   // Scroll to the desired section on click
   // Make sure to add the `data-scroll` attribute to your `<a>` tag.
   // Example: 
@@ -39,10 +30,8 @@
     meanMenuContainer: '.header-navbar',
     meanMenuOpen: "<span></span><span></span><span></span>",
     meanMenuClose: "<span></span><span></span><span></span>",
-    siteLogo: "<a class='navbar-mobile' href='index.html'><img src='assets/images/header-logo-mobile.png' alt='images'></a>",
+    siteLogo: "<a class='navbar-mobile ' href='index.html'><h5>Minimalism</></h5></a>",
   });
-
-
 
 
   /*  Aos  */
@@ -113,3 +102,15 @@ function check() {
 
 
 
+
+
+// Add active class to the current button (highlight it)
+var header = document.getElementById("tabs-click");
+var btns = header.getElementsByClassName("tabs-click");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+  var current = document.getElementsByClassName("active");
+  current[0].className = current[0].className.replace(" active", "");
+  this.className += " active";
+  });
+}

@@ -104,3 +104,48 @@
     top: 0;
   }
 }
+
+.banner-site{
+  top: 70px;
+}
+.banner-right{
+  .tabs-menu{
+    ul{
+      li{
+        a{
+          padding: 15px;
+          
+          
+        }
+        .active{
+          &:after{
+            content: '';
+            position: absolute;
+            width: 40px;
+            height: 2px;
+            background-color:$dark;
+            display: block;
+            transition: all .2s ease-in-out;
+            position: absolute;
+           top: 40px;
+          }
+          
+        }
+      }
+    }
+
+  }
+  .active, .tabs-click:hover {
+
+    color:$dark;
+  }
+}
+
+
+
+
+
+/* Style the active class, and buttons on mouse-over */
+
+
+

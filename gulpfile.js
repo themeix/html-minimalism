@@ -17,13 +17,10 @@
     var CSS_Files = [
     './node_modules/@fortawesome/fontawesome-free/css/all.min.css',
     './node_modules/aos/dist/aos.css',
-    './node_modules/magnific-popup/dist/magnific-popup.css',
     './node_modules/prismjs/themes/prism.css',
-    './node_modules/slick-carousel/slick/slick.css',
     './node_modules/szmigiel-meanmenu/meanmenu.min.css',
     './node_modules/animate.css/animate.min.css',
     './node_modules/typography-fix/typofix.css',
-    './node_modules/minimusic/css/styles.css',
     ];
     var JS_Files = [
 	'./node_modules/jquery/dist/jquery.min.js',
@@ -32,23 +29,17 @@
     './node_modules/jquery.easing/jquery.easing.min.js',  	 
     './node_modules/szmigiel-meanmenu/jquery.meanmenu.min.js',     
     './node_modules/aos/dist/aos.js',     
-    './node_modules/slick-carousel/slick/slick.min.js',
     './node_modules/prismjs/prism.js',
-    './node_modules/magnific-popup/dist/jquery.magnific-popup.min.js',
-    './node_modules/masonry-layout/dist/masonry.pkgd.js',
-    './node_modules/minimusic/js/musicplayer-min.js',
-    './assets/js/app.js',
+    './assets/js/app.js'
     ];
     var Production_CSS_Files = [
     './dist/production/assets/css/all.min.css',
     './dist/production/assets/css/aos.css',
-    './dist/production/assets/css/magnific-popup.css',
     './dist/production/assets/css/prism.css',
-    './dist/production/assets/css/slick.css',
     './dist/production/assets/css/meanmenu.min.css',
     './dist/production/assets/css/animate.min.css',
     './dist/production/typography-fix/typofix.css',
-    './dist/production/assets/css/styles.css',
+    './dist/production/assets/css/styles.css'
     ];	
     var Production_JS_Files = [
     './dist/production/assets/js/jquery.min.js',
@@ -56,13 +47,9 @@
     './dist/production/assets/js/bootstrap.min.js', 
     './dist/production/assets/js/jquery.easing.min.js',       
     './dist/production/assets/js/jquery.meanmenu.min.js',     
-    './dist/production/assets/js/aos.js',     
-    './dist/production/assets/js/slick.min.js',
+    './dist/production/assets/js/aos.js',
     './dist/production/assets/js/prism.js',
-    './dist/production/assets/js/jquery.magnific-popup.min.js',
-    './dist/production/assets/js/masonry.pkgd.js',
-    './dist/production/assets/js/musicplayer-min.js',
-    './dist/production/assets/js/app.js', 
+    './dist/production/assets/js/app.js'
     ];	
 /*
 =============================

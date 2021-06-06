@@ -1,0 +1,27 @@
+/*
+==========================================
+    Testimonial Area
+==========================================
+*/
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    background-color: transparent;
+    color: $danger;
+}
+
+.testimonials-box {
+    i{
+        color: $primary;
+    }
+    box-shadow: $box-shadow;
+
+    img {
+        width: 70px;
+        height: 70px;
+        object-fit: cover;
+    }
+}
+
+.testimonial-ratting {
+    padding: 10px;
+}

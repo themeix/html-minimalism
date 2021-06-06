@@ -22,7 +22,7 @@
                     font-weight:$font-weight-bold;
                     font-family: $headings-font-family;
                     &:hover {
-                        color: $primary;
+                        color: $danger;
                     }
                 }
                 .toogler {
@@ -56,7 +56,7 @@
 
                         &:hover {
                             background-color: $light;
-                            color: $primary;
+                            color: $danger;
                         }
                     }
 

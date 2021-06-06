@@ -8,36 +8,27 @@
 /* ============================================== 
   Media Query : 991px
 ============================================== */
-@media only screen and (max-width: 991px) {
-  .navbar-collapse {
-    background-color: $white;
-    padding: 15px;
-    box-shadow: $box-shadow;
-    margin-top: 9px;
-  }
-  .nav-right {
-    display: none;
-}
-
-}
+@media only screen and (max-width: 991px) {}
 
 
 /* ============================================== 
   Media Query : 767px
 ============================================== */
 @media only screen and (max-width: 767px) {
-  .banner-area {
-    padding: 10% 0px;
+
+  .banner-left {
+    &:after {
+      display: none;
+    }
   }
 
-  .post-item-img {
-    width: 30%;
-    background-position: center;
-  }
-  .about-banner-area{
-   min-height: 40vh;
+  ul#pills-tab {
+    display: inline-flex;
   }
 
+  ul.pagination {
+    display: inline-flex;
+  }
 }
 
 
@@ -47,6 +38,30 @@
   Media Query : 575px
 ============================================== */
 @media only screen and (max-width: 575px) {
- 
+
+  .banner-left {
+    text-align: center;
+
+  }
+
+  .banner-site {
+    margin-bottom: 1.875rem !important;
+  }
+
+
+  .banner-right {
+    text-align: center;
+  }
+
+  .footer-widget {
+    text-align: center;
+  }
+
+  ul.footer-social-list {
+    margin-top: 1.875rem !important;
+  }
+  .testimonial-title {
+    text-align: center;
+  }
 
 }

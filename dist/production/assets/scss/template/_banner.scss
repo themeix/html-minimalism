@@ -1,0 +1,110 @@
+/*
+==========================================
+    Banner Area
+==========================================
+*/
+.post-tab .nav-link.active {
+  position: relative;
+
+  &:after {
+    content: '';
+    position: absolute;
+    width: 40px;
+    height: 2px;
+    background-color: $dark;
+    display: block;
+    transition: all .2s ease-in-out;
+    position: absolute;
+    bottom: -9px;
+  }
+}
+
+.page-link {
+  background-color: transparent;
+  border: 0;
+
+  &:hover {
+    color: $danger;
+    background: transparent;
+
+  }
+}
+
+.back-to-top {
+  position: relative;
+
+  i {
+    background: $white;
+    padding: 25px;
+    top: -37px;
+    position: absolute;
+    clip-path: polygon(49% 1%, 100% 50%, 50% 100%, 0% 50%);
+  }
+
+}
+
+
+.post-style-2{
+  img{
+    width: 40px;
+    height: 40px; 
+    object-fit: cover;
+  }
+}
+
+.post-style-hover {
+  transition: .5s;
+
+  &:hover {
+    box-shadow: $box-shadow;
+    transition: .5s;
+
+  }
+
+
+}
+
+.post-tab {
+  .nav-link {
+    color: $dark;
+
+    &:hover {
+      color: $danger;
+    }
+  }
+}
+
+
+.sidebar-logo {
+  img {
+    height: 140px;
+  object-fit: cover;
+    width: 140px;
+  }
+}
+
+
+.post-style-3-image img {
+  height: 155px;
+  max-width: 155px;
+  float: left;
+  object-fit: cover;
+}
+
+
+
+.banner-left{
+  position: relative;
+  &:after{
+    border-right: 2px solid $light;
+    height: 150%;
+    position: absolute;
+    content: "";
+    right: -35px;
+    top: 0;
+  }
+}
+
+.banner-site{
+  top: 70px;
+}
