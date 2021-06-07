@@ -8,7 +8,22 @@
 /* ============================================== 
   Media Query : 991px
 ============================================== */
-@media only screen and (max-width: 991px) {}
+@media only screen and (max-width: 991px) {
+
+  .post-style-3 .post-image img {
+    width: 100% !important;
+  }
+
+  .post-style-3 {
+    display: unset !important;
+  }
+
+  .post-style-3 .post-content {
+    width: unset !important;
+    background-color: $white !important;
+    box-shadow: $box-shadow-sm !important;
+  }
+}
 
 
 /* ============================================== 
@@ -29,6 +44,8 @@
   ul.pagination {
     display: inline-flex;
   }
+
+ 
 }
 
 
@@ -72,8 +89,9 @@
   .post-right {
     text-align: center;
   }
+
   .Privacy-policy-area {
     text-align: center;
-}
+  }
 
 }

@@ -1,9 +1,29 @@
-.recent-posts-3-image img {}
 
-.recent-posts-3-image {
-    img {
-        height: 155px;
-        object-fit: cover;
-        max-width: 155px;
-    }
+
+.post-style-3 {
+	.hospital-image {
+		position: relative;
+		overflow: hidden;
+		max-height: 320px;
+		width: 300px;
+	}
+	.post-image {
+		img {
+			width: auto;
+			height: 100%;
+			-o-object-fit: cover;
+			object-fit: cover;
+			transition: all .5s ease-in-out;
+		}
+	}
+	.post-content {
+		width: calc(100% - 300px);
+		padding: 30px 15px;
+	}
+	position: relative;
+	background-color: $white;
+	box-shadow: $box-shadow-sm;
+	border-radius: .4rem;
+	transition: all .5s ease-in-out;
+	display: flex;
 }
