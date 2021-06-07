@@ -718,6 +718,12 @@ Primary use:  Religion Website
   ul.footer-social-list {
     margin-top: 1.875rem !important; }
   .testimonial-title {
+    text-align: center; }
+  .Pagination-area {
+    text-align: center; }
+  .post-right {
+    text-align: center; }
+  .Privacy-policy-area {
     text-align: center; } }
 
 :root {
@@ -9571,7 +9577,7 @@ img {
     transition-duration: 0.3s;
     transition-timing-function: ease-out; }
   .btn:hover {
-    color: #ffffff; }
+    color: #ffffff !important; }
     .btn:hover:before {
       transform: scaleX(1); }
 
@@ -9941,14 +9947,17 @@ img {
     background: transparent; }
 
 .back-to-top {
-  position: relative; }
-  .back-to-top i {
+  position: absolute;
+  left: 0;
+  right: 0; }
+  .back-to-top a {
     background: #ffffff;
     padding: 25px;
-    top: -37px;
-    position: absolute;
     -webkit-clip-path: polygon(49% 1%, 100% 50%, 50% 100%, 0% 50%);
             clip-path: polygon(49% 1%, 100% 50%, 50% 100%, 0% 50%); }
+  .back-to-top .back-to-top-icon {
+    position: relative;
+    top: -11px; }
 
 .post-style-2 img {
   width: 40px;
@@ -9993,22 +10002,25 @@ img {
 .banner-site {
   top: 70px; }
 
-.banner-right .tabs-menu ul li a {
-  padding: 15px; }
+.banner-right .tabs-menu ul li {
+  display: inline-block; }
+  .banner-right .tabs-menu ul li a {
+    padding: 15px; }
+  .banner-right .tabs-menu ul li .active {
+    color: #F63C25; }
+    .banner-right .tabs-menu ul li .active:after {
+      content: '';
+      position: absolute;
+      width: 40px;
+      height: 2px;
+      background-color: #000000;
+      display: block;
+      transition: all .2s ease-in-out;
+      position: absolute;
+      top: 40px; }
 
-.banner-right .tabs-menu ul li .active:after {
-  content: '';
-  position: absolute;
-  width: 40px;
-  height: 2px;
-  background-color: #000000;
-  display: block;
-  transition: all .2s ease-in-out;
-  position: absolute;
-  top: 40px; }
-
-.banner-right .active, .banner-right .tabs-click:hover {
-  color: #000000; }
+.banner-right .tabs-menu .active, .banner-right .tabs-menu .a:hover {
+  color: #F63C25; }
 
 /* Style the active class, and buttons on mouse-over */
 /*
@@ -10383,13 +10395,24 @@ input:checked + .slider:before {
 .contact-address-box {
   box-shadow: 0px 5px 6px rgba(0, 0, 0, 0.25); }
 
-.entry-navigation-img img {
-  width: 126px;
-  border-radius: 8%; }
+.previous-button {
+  display: inline-block; }
+  .previous-button:hover {
+    box-shadow: 5px 0 30px 20px rgba(0, 0, 0, 0.05); }
 
-.entry-navigation {
-  align-items: center;
-  box-shadow: 5px 0 30px 20px rgba(0, 0, 0, 0.05); }
+.entry-author-bio {
+  box-shadow: 0px 5px 6px rgba(0, 0, 0, 0.25); }
+  .entry-author-bio img {
+    width: 50px;
+    height: 50px;
+    -o-object-fit: cover;
+       object-fit: cover; }
+
+.comment__item .comment-avatar img {
+  width: 50px;
+  height: 50px;
+  -o-object-fit: cover;
+  object-fit: cover; }
 
 /*
 ==========================================

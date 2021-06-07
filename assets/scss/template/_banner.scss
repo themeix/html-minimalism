@@ -30,17 +30,22 @@
   }
 }
 
-.back-to-top {
-  position: relative;
 
-  i {
+
+.back-to-top{
+  position: absolute;
+  left: 0;
+  right: 0;
+  a{
     background: $white;
     padding: 25px;
-    top: -37px;
-    position: absolute;
     clip-path: polygon(49% 1%, 100% 50%, 50% 100%, 0% 50%);
-  }
 
+  }
+  .back-to-top-icon{
+    position: relative;
+    top: -11px;
+  }
 }
 
 
@@ -112,12 +117,15 @@
   .tabs-menu{
     ul{
       li{
+        display: inline-block;
         a{
           padding: 15px;
           
           
         }
         .active{
+          
+       
           &:after{
             content: '';
             position: absolute;
@@ -129,17 +137,24 @@
             position: absolute;
            top: 40px;
           }
-          
+          color: $danger;
         }
       }
     }
+    .active, .a:hover {
+
+      color:$danger;
+    }
+    
 
   }
-  .active, .tabs-click:hover {
-
-    color:$dark;
-  }
+  
 }
+
+
+
+
+
 
 
 

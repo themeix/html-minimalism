@@ -84,7 +84,7 @@ img{
     transition-timing-function: ease-out;
   }
   &:hover{
-    color: $white;
+    color: $white !important;
      &:before{
       -webkit-transform: scaleX(1);
       transform: scaleX(1);
