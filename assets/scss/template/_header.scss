@@ -313,53 +313,7 @@
     display: block;
 }
 
-// loading 
 
-#loading {
-    background-color:$white;
-    height: 100%;
-    width: 100%;
-    position: fixed;
-    z-index: 999;
-    margin-top: 0px;
-    top: 0px;
-}
-.preloader {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    margin-top: -37.5px;
-    margin-left: -37.5px;
-}
-.spinner{
-    width: 75px;
-    height: 75px;
-    margin: 0;
-    border-top: 10px solid $primary;
-    box-shadow: 4px 4px 5px $danger inset;
-    border-right: 10px solid transparent;
-    border-radius: 50%;
-    animation: 1.5s spin linear infinite;
-}
-.spinner-2{
-    width: 75px;
-    height: 75px;
-    margin: 0;
-    border-top: 10px solid $primary;
-    border-left: 10px solid transparent;
-    border-radius: 50%;
-    position: absolute;
-    top: 0;
-    animation: 1.5s spin-2 linear infinite;
-}
-@keyframes spin{
-    from{ transform: rotate(0deg); }
-    to{ transform: rotate(360deg); }
-}
-@keyframes spin-2{
-    from{ transform: rotate(360deg); }
-    to{ transform: rotate(0deg); }
-}
 /*----------------------------------------------
     # Nav bar 
 ----------------------------------------------*/
