@@ -97,64 +97,27 @@
 }
 
 
+ 
 
-.banner-left{
-  position: relative;
-  &:after{
-    border-right: 2px solid $light;
-    height: 150%;
-    position: absolute;
-    content: "";
-    right: -35px;
-    top: 0;
-  }
-}
-
-.banner-site{
+.sticky-70{
   top: 70px;
 }
-.banner-right{
-  .tabs-menu{
-    ul{
-      li{
-        display: inline-block;
-        a{
-          padding: 15px;
-          
-          
-        }
-        .active{
-          
-       
-          &:after{
-            content: '';
-            position: absolute;
-            width: 40px;
-            height: 2px;
-            background-color:$dark;
-            display: block;
-            transition: all .2s ease-in-out;
-            position: absolute;
-           top: 40px;
-          }
-          color: $danger;
-        }
-      }
-    }
-    .active, .a:hover {
 
-      color:$danger;
-    }
-    
 
-  }
-  
+
+
+
+.btn-link-style-1:hover i {
+  transform: translateX(0px);
+  transition: all ease 500ms;
 }
+ 
+ 
 
-
-
-
-
+.btn-link-style-1 i {
+  transform: translateX(10px);
+  transition: all ease 500ms;
+}
 
 
 

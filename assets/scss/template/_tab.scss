@@ -1,0 +1,40 @@
+/*
+==========================================
+   Tabs
+==========================================
+*/
+.tabs-menu{
+  ul{
+    li{
+      display: inline-block;
+      a{
+        padding: 15px;
+        font-weight: $font-weight-medium;
+        
+        color: $dark;
+      }
+      .active{
+        
+     
+        &:after{
+          content: '';
+          position: absolute;
+          width: 20px;
+          height: 2px;
+          background-color:$primary;
+          display: block;
+          transition: all .2s ease-in-out;
+          position: absolute;
+         top: 40px;
+        }
+        color: $danger;
+      }
+    }
+  }
+  .active, .a:hover {
+
+    color:$danger;
+  }
+  
+
+}
