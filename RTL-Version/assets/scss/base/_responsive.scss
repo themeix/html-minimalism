@@ -1,0 +1,100 @@
+/* ============================================== 
+  Media Query : 1200px
+============================================== */
+@media only screen and (max-width:1199px) {}
+
+
+
+/* ============================================== 
+  Media Query : 991px
+============================================== */
+@media only screen and (max-width: 991px) {
+
+  .post-style-3 .post-image img {
+    width: 100% !important;
+  }
+
+  .post-style-3 {
+    display: unset !important;
+  }
+
+  .post-style-3 .post-content {
+    width: unset !important;
+    background-color: $white !important;
+    box-shadow: $box-shadow-sm !important;
+  }
+}
+
+
+/* ============================================== 
+  Media Query : 767px
+============================================== */
+@media only screen and (max-width: 767px) {
+
+  .banner-left {
+    &:after {
+      display: none;
+    }
+  }
+
+  ul#pills-tab {
+    display: inline-flex;
+  }
+
+  ul.pagination {
+    display: inline-flex;
+  }
+
+ 
+}
+
+
+
+
+/* ============================================== 
+  Media Query : 575px
+============================================== */
+@media only screen and (max-width: 575px) {
+
+  .banner-left {
+    text-align: center;
+
+  }
+
+  .banner-site {
+    margin-bottom: 1.875rem !important;
+  }
+
+
+  .banner-right {
+    text-align: center;
+  }
+
+  .footer-widget {
+    text-align: center;
+  }
+
+  ul.footer-social-list {
+    margin-top: 1.875rem !important;
+  }
+
+  .testimonial-title {
+    text-align: center;
+  }
+
+  .Pagination-area {
+    text-align: center;
+  }
+
+  .post-right {
+    text-align: center;
+  }
+
+  .Privacy-policy-area {
+    text-align: center;
+  }
+  .faq-area{
+    text-align: center;
+  }
+
+}

@@ -385,6 +385,24 @@
 
 
 
+.navbar-area {
+	.nav-container {
+		.nav-right-content {
+			ul {
+				li.togglebar.active {
+					.line {
+						&:nth-child(2) {
+							opacity: 0;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+
+
 
  
 

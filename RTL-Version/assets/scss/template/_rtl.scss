@@ -1,0 +1,14 @@
+.ribbon::before {
+    position: absolute;
+    z-index: -1;
+    content: '';
+    display: block;
+    border: 5px solid $primary;
+    right: 118px;
+}
+
+.mean-container .mean-bar .navbar-mobile {
+    margin-top: 5px;
+    display: inline-block;
+    float: inherit;
+}

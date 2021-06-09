@@ -9869,6 +9869,9 @@ img {
     .navbar-area .nav-container .nav-right-content ul li.togglebar.active .line:first-child {
       transform: rotate(45deg); }
 
+.navbar-area .nav-container .nav-right-content ul li.togglebar.active .line:nth-child(2) {
+  opacity: 0; }
+
 /*
 ==========================================
     Banner Area
@@ -10252,7 +10255,3 @@ input:checked + .slider:before {
   .post-style-3 .post-content {
     width: calc(100% - 300px);
     padding: 30px 15px; }
-
-#contact-map {
-  min-height: 400px;
-  width: 100%; }
