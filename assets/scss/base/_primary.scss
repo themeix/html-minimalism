@@ -16,12 +16,12 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-    background-color: $success; 
+    background-color: $primary; 
     border-radius: 0;
     color:$light; 
 }
 body::-moz-selection { 
-  background-color: $success; 
+  background-color: $primary; 
   color:$light;
 }
 
