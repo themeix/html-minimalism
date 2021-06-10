@@ -13,12 +13,11 @@
 =============================
 */
 
-    var File_Name = 'html-grandmosque.zip';
+    var File_Name = 'html-minimalism.zip';
     var CSS_Files = [
     './node_modules/@fortawesome/fontawesome-free/css/all.min.css',
     './node_modules/aos/dist/aos.css',
     './node_modules/prismjs/themes/prism.css',
-    './node_modules/szmigiel-meanmenu/meanmenu.min.css',
     './node_modules/animate.css/animate.min.css',
     './node_modules/typography-fix/typofix.css',
     ];
@@ -26,8 +25,7 @@
 	'./node_modules/jquery/dist/jquery.min.js',
    './node_modules/@popperjs/core/dist/umd/popper.min.js', 
     './node_modules/bootstrap/dist/js/bootstrap.min.js', 
-    './node_modules/jquery.easing/jquery.easing.min.js',  	 
-    './node_modules/szmigiel-meanmenu/jquery.meanmenu.min.js',     
+    './node_modules/jquery.easing/jquery.easing.min.js',  	  
     './node_modules/aos/dist/aos.js',     
     './node_modules/prismjs/prism.js',
     './assets/js/app.js'

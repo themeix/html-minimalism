@@ -1,0 +1,118 @@
+/*
+==========================================
+    Sidenav Area
+==========================================
+*/
+
+/* Sidebar */
+#navigation-sidebar-wrapper{
+    box-shadow: $box-shadow-sm;
+    z-index:11;
+    position: fixed;
+    width:0;
+    height:100%;
+    overflow-y:hidden;
+    background: $white;
+     transition:all .5s;     
+     right:0;
+  }
+  
+  /* Main Content */
+  #page-content-wrapper{
+  
+    padding:15px;
+      transition:all .5s;
+  }
+  
+  #menu-toggle{
+      transition:all .3s;
+      font-size:2em;
+  }
+  /* Change the width of the sidebar to display it*/
+  #site-wrapper.menuDisplayed #navigation-sidebar-wrapper{
+    width:300px;
+  }
+  
+ 
+  
+  /* Sidebar styling */ 
+ 
+   
+
+   
+.nav-link-collapse:after {
+    float: right;
+    font-weight: 900; 
+    content: "\f067";
+    font-family: "Font Awesome 5 Free";
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  .nav-link-show:after {
+    float: right;
+    content: '\f068';
+    font-family: "Font Awesome 5 Free";
+  }
+  
+  .nav-item ul.nav-second-level {
+    padding-left: 0;
+  }
+  
+  .nav-item ul.nav-second-level > .nav-item {
+    padding-left: 15px;
+  }
+   
+  .close-icon {
+     width: 100%;
+    text-align: right;
+    padding-right: 0;
+    padding-top: 0;
+    position: absolute;
+    top: 0;
+    i {
+        font-size: 20px;
+        background: $danger;
+        color: #fff;
+        padding: 8px;
+        cursor: pointer;
+    }
+}
+
+ 
+.side-flyout-nav {
+    padding-top: 50px;
+   
+    >ul{
+        padding: 0;
+    >li {
+        list-style: none;
+        border-top: 1px solid #ddd;
+        >ul {
+
+            >li{
+                border-top: 1px solid #ddd;
+                a {
+
+                }
+            }
+        }
+
+        a{
+            color: $dark;
+            padding: 8px 15px;
+            font-weight: $font-weight-medium;
+        }
+    
+    }&:last-child {
+        border-bottom: 1px solid #ddd;
+
+    }
+    &:last-child {
+        border-bottom: 1px solid #ddd;
+
+    }
+}
+}

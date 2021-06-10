@@ -8,10 +8,13 @@
     li{
       display: inline-block;
       a{
-        padding: 15px;
-        font-weight: $font-weight-medium;
-        
+        padding: 10px 15px;
+        font-weight: $font-weight-medium;        
         color: $dark;
+        transition: all ease 500ms;
+        &:hover {
+          color: $primary;
+        }
       }
       .active{
         

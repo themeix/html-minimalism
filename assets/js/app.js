@@ -1,8 +1,6 @@
 (function ($) {
   "use strict";
 
- 
-
   // Scroll to the desired section on click
   // Make sure to add the `data-scroll` attribute to your `<a>` tag.
   // Example: 
@@ -16,23 +14,9 @@
   }
   $('[data-scroll]').on('click', scrollToSection);
 
-
-
-
-  /*  Toggle Class */
-  $('.search-toggler').on('click', function (e) {
-    $('.search-form').toggleClass('open');
-    e.preventDefault();
-  });
-  /*  Mean Menu */
-  $('.navbar-meanmenu').meanmenu({
-    meanScreenWidth: "991",
-    meanMenuContainer: '.header-navbar',
-    meanMenuOpen: "<span></span><span></span><span></span>",
-    meanMenuClose: "<span></span><span></span><span></span>",
-    siteLogo: "<a class='navbar-mobile ' href='index.html'><h5>Minimalism</></h5></a>",
-  });
-
+ 
+ 
+ 
 
   /*  Aos  */
   AOS.init({
@@ -57,11 +41,7 @@
   })
 
 
-  $(".togglebar").on('click', function () {
-    $(".togglebar").toggleClass('active');
-    $(".navbar-collapse").toggleClass('active');
-  })
-
+ 
   // loading
   $(window).on("load", function () {
     $("#loading").fadeOut(600);
@@ -80,9 +60,28 @@
 
 
 
+    $('.togglebar').on('click', function(e) {
+    e.preventDefault();
+    $("#site-wrapper").toggleClass("menuDisplayed");   
+ 
+    $(".togglebar").toggleClass('active');
+  });
+
   
+   
+    $('.menu-close').on('click', function(e) {
+    e.preventDefault();
+    $("#site-wrapper").toggleClass("menuDisplayed"); 
+    $(".togglebar").toggleClass('active');
+   
 
 
+  });
+
+  $('.nav-link-collapse').on('click', function() {
+    $('.nav-link-collapse').not(this).removeClass('nav-link-show');
+    $(this).toggleClass('nav-link-show');
+  });
 
 }(jQuery));
   
@@ -91,16 +90,6 @@
 
 
 
-// Add active class to the current button (highlight it)
-var header = document.getElementById("tabs-click");
-var btns = header.getElementsByClassName("tabs-click");
-for (var i = 0; i < btns.length; i++) {
-  btns[i].addEventListener("click", function() {
-  var current = document.getElementsByClassName("active");
-  current[0].className = current[0].className.replace(" active", "");
-  this.className += " active";
-  });
-}
 
 
 
