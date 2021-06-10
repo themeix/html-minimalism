@@ -29,11 +29,7 @@ body::selection {
   background-color: $success; 
   color:$light;
 }
-.btn,.badge{
-    &:focus,&:active,&:hover{
-    
-  }
-}
+ 
 a{
   text-decoration: none;
   color: $secondary;
@@ -124,4 +120,7 @@ img{
 }
 .btn-blue {
   background-color:#0674E7 ;
+}
+.badge {
+  font-weight: $font-weight-normal;
 }
