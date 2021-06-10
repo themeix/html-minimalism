@@ -1,715 +1,714 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="utf-8">
-      <meta http-equiv="x-ua-compatible" content="ie=edge">
-      <title>Minimalism - HTML Site Template</title>
-      <meta name="description" content="">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <link rel="shortcut icon" href="assets/images/favicon.ico" type="images/x-icon" />
-      <link rel="preconnect" href="https://fonts.gstatic.com">
-      <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;500;600&family=Ubuntu:wght@400;500;800&display=swap" rel="stylesheet">
-      <!-- gulp:css -->
-      <link rel="stylesheet" href="assets/css/app.min.css">
-      <!-- endgulp -->
-   </head>
-   <body>
-      <!--  ====================== Header Area Start =============================  -->
-      <header class="header-area ">
-         <div class="header-bottom bg-black px-xl-8">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Minimalism - HTML Site Template</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="images/x-icon" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;500;600&family=Ubuntu:wght@400;500;800&display=swap"
+        rel="stylesheet">
+    <!-- gulp:css -->
+    <link rel="stylesheet" href="assets/css/app.min.css">
+    <!-- endgulp -->
+</head>
+
+<body>
+ <!--  ====================== Preloader Area Start =============================  -->
+    <div class="preloader">
+    
+        <svg width="200" height="200" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid" class="lds-ripple" style="background:0 0"><circle cx="50" cy="50" r="4.719" fill="none" stroke="#f44336" stroke-width="2"><animate attributeName="r" calcMode="spline" values="0;40" keyTimes="0;1" dur="3" keySplines="0 0.2 0.8 1" begin="-1.5s" repeatCount="indefinite"/><animate attributeName="opacity" calcMode="spline" values="1;0" keyTimes="0;1" dur="3" keySplines="0.2 0 0.8 1" begin="-1.5s" repeatCount="indefinite"/></circle><circle cx="50" cy="50" r="27.591" fill="none" stroke="#51555d" stroke-width="2"><animate attributeName="r" calcMode="spline" values="0;40" keyTimes="0;1" dur="3" keySplines="0 0.2 0.8 1" begin="0s" repeatCount="indefinite"/><animate attributeName="opacity" calcMode="spline" values="1;0" keyTimes="0;1" dur="3" keySplines="0.2 0 0.8 1" begin="0s" repeatCount="indefinite"/></circle></svg>
+        
+      </div>
+    <!--  ====================== Header Area Start =============================  -->
+    <header class="header-area ">
+        <div class="header-bottom bg-black px-xl-8">
             <nav class="container">
-               <div class="header-navbar navbar navbar-expand-lg">
-                  <h5><a class="navbar-brand" href="index.html">Minimalism</a></h5>
-                  <div class="collapse navbar-collapse" id="navbar-menu">
-                     <nav class="navbar-meanmenu ms-auto">
-                        <ul class="navbar-nav">
-                           <li class="nav-item">
-                              <a class="nav-link  toogler" href="index.html"> Home </a>
-                              <ul class="dropdown-menu">
-                                 <li><a class="dropdown-item" href="index-2.html">Home v2</a></li>
-                                 <li><a class="dropdown-item" href="index-3.html">Home v3</a></li>
-                              </ul>
-                           </li>
-                           <li class="nav-item "> <a class="nav-link" href="about.html">About</a>
-                           </li>
-                           <li class="nav-item"> <a class="nav-link" href="testimonials.html">Testimonials</a></li>
-                           <li class="nav-item"> <a class="nav-link" href="pricing.html">Pricing</a></li>
-                           <li class="nav-item"> <a class="nav-link" href="faq.html">FAQ</a></li>
-                           <li class="nav-item"> <a class="nav-link" href="contact.html">Contact</a></li>
+                <div class="header-navbar navbar navbar-expand-lg">
+                    <h5><a class="navbar-brand" href="index.html">Minimalism</a></h5>
+                    <div class="collapse navbar-collapse" id="navbar-menu">
+                        <nav class="navbar-meanmenu ms-auto">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link  toogler" href="index.html"> Home </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="index-2.html">Home v2</a></li>
+                                        <li><a class="dropdown-item" href="index-3.html">Home v3</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item "> <a class="nav-link" href="about.html">About</a>
+                                </li>
+                                <li class="nav-item"> <a class="nav-link" href="testimonials.html">Testimonials</a></li>
+                                <li class="nav-item"> <a class="nav-link" href="pricing.html">Pricing</a></li>
+                                <li class="nav-item"> <a class="nav-link" href="faq.html">FAQ</a></li>
+                                <li class="nav-item"> <a class="nav-link" href="contact.html">Contact</a></li>
+                            </ul>
+                        </nav>
+                        <ul class="navbar-nav align-items-center  nav-right-content">
+                            <li class="togglebar" id="togglebar">
+                                <span class="line"></span>
+                                <span class="line"></span>
+                            </li>
+                            <li class="nav-item">
+                                <a class="search-toggler nav-link" href="#"><img src="assets/images/loupe.png"
+                                        alt="title"></a>
+                                <form class="search-form" action="#">
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" placeholder="Search">
+                                        <button class="btn btn-primary" type="submit">Search</button>
+                                    </div>
+                                </form>
+                            </li>
                         </ul>
-                     </nav>
-                     <ul class="navbar-nav align-items-center  nav-right-content">
-                        <li class="togglebar" id="togglebar">
-                           <span class="line"></span>
-                           <span class="line"></span>
-                        </li>
-                        <li class="nav-item">
-                           <a class="search-toggler nav-link" href="#"><img src="assets/images/loupe.png"
-                              alt="title"></a>
-                           <form class="search-form" action="#">
-                              <div class="input-group">
-                                 <input type="text" class="form-control" placeholder="Search">
-                                 <button class="btn btn-primary" type="submit">Search</button>
-                              </div>
-                           </form>
-                        </li>
-                     </ul>
-                     <div class="navbar navbar-area ">
-                        <div class=" nav-container">
-                           <div class="nav-right-content  ">
-                              <ul class=" m-0">
-                                 <li class="togglebar">
-                                    <span class="line"></span>
-                                    <span class="line"></span>
-                                    <span class="line"></span>
-                                 </li>
-                              </ul>
-                           </div>
+                        <div class="navbar navbar-area ">
+                            <div class=" nav-container">
+                                <div class="nav-right-content  ">
+                                    <ul class=" m-0">
+                                        <li class="togglebar">
+                                            <span class="line"></span>
+                                            <span class="line"></span>
+                                            <span class="line"></span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
-                     </div>
-                  </div>
-               </div>
+                    </div>
+                </div>
             </nav>
-         </div>
-      </header>
-      <!--  ====================== Header Area End =============================  -->
-      <!--  ====================== Content Area Start =============================  -->
-      <section class="content-area py-8">
-         <div class="container">
+        </div>
+    </header>
+    <!--  ====================== Header Area End =============================  -->
+    <!--  ====================== Content Area Start =============================  -->
+    <section class="content-area py-8">
+        <div class="container">
             <div class="row">
-               <div class="col-lg-3 col-md-4">
-                  <div class="mb-sm-4 bg-light border p-4 sticky-70 position-sticky text-sm-center text-md-start">
-                     <div class="site-sidebar position-relative">
-                        <div class="sidebar-logo">
-                           <img class="rounded-circle " src="assets/images/sidebar-logo.jpg" alt="sidebar-logo">
+                <div class="col-lg-3 col-md-4">
+                    <div class="mb-sm-4 bg-light border p-4 sticky-70 position-sticky text-sm-center text-md-start">
+                        <div class="site-sidebar position-relative">
+                            <div class="sidebar-logo">
+                                <img class="rounded-circle " src="assets/images/sidebar-logo.jpg" alt="sidebar-logo">
+                            </div>
+                            <h4 class="mt-2">Jhone Doe</h4>
+                            <p class="mt-3">
+                                I was born in Kansas, and like little Ellie, I always dreamed that a hurricane would
+                                take me somewhere to another country. And once I really ended up in another country - in
+                                China, studying at a business school. There I began to travel a lot around Asia in my
+                                free time and then moved to work in Munich.
+                            </p>
+                            <a class="btn-link-style-1 text-primary fs-6 fw-bold " href="about.html"> ABOUT ME <i
+                                    class="fas fa-chevron-right small ms-2 bg-light p-3 "
+                                    style="border-radius:5px"></i></a>
                         </div>
-                        <h4 class="mt-2">Jhone Doe</h4>
-                        <p class="mt-3">
-                           I was born in Kansas, and like little Ellie, I always dreamed that a hurricane would take me somewhere to another country. And once I really ended up in another country - in China, studying at a business school. There I began to travel a lot around Asia in my free time and then moved to work in Munich.
-                        </p>
-                        <a class="btn-link-style-1 text-primary fs-6 fw-bold " href="about.html"> ABOUT ME <i
-                           class="fas fa-chevron-right small ms-2 bg-light p-3 " style="border-radius:5px"></i></a>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-lg-9 col-md-8 ">
-                <div class="ms-md-2 content-right text-sm-center text-md-start">
-                       
-                            <div class="testimonial-title text-sm-center text-md-start">
-                                <h3 class=" mb-3 "> Testimonials</h3>
-                            </div>
-                            <div class="tabs-menu-testimonials text-sm-center">
-                                <ul class="nav post-tab border-bottom  " id="pills-tab" role="tablist">
+                    </div>
+                </div>
+                <div class="col-lg-9 col-md-8 ">
+                    <div class="ms-md-2 content-right text-sm-center text-md-start">
 
-                                    <li class="nav-item mb-2" role="presentation">
-                                        <a href="" class="nav-link  ps-0 border-0 active me-2 fw-bold"
-                                            id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home-1"
-                                            role="tab" aria-selected="true"> ZocDoc</a>
-                                    </li>
-                                    <li class="nav-item mb-1 " role="presentation">
-                                        <a href="" class="nav-link  border-0 me-2 fw-bold" id="pills-profile-tab-2"
-                                            data-bs-toggle="pill" data-bs-target="#pills-home-2" role="tab"
-                                            aria-selected="false">Yelp</a>
-                                    </li>
-                                    <li class="nav-item mb-1" role="presentation">
-                                        <a href="" class="nav-link  border-0 me-2 fw-bold " id="pills-profile-tab-3"
-                                            data-bs-toggle="pill" data-bs-target="#pills-home-3" role="tab"
-                                            aria-selected="false">Google</a>
-                                    </li>
-                                    <li class="nav-item mb-1" role="presentation">
+                        <div class="testimonial-title text-sm-center text-md-start">
+                            <h3 class=" mb-3 "> Testimonials</h3>
+                        </div>
+                        <div class="tabs-menu-testimonials text-sm-center">
+                            <ul class="nav post-tab border-bottom  " id="pills-tab" role="tablist">
 
-                                        <a href="" class="nav-link  border-0 me-2 fw-bold " id="pills-profile-tab-4"
-                                            data-bs-toggle="pill" data-bs-target="#pills-home-4" role="tab"
-                                            aria-selected="false">Vitals</a>
-                                    </li>
+                                <li class="nav-item mb-2" role="presentation">
+                                    <a href="" class="nav-link  ps-0 border-0 active me-2 fw-bold" id="pills-home-tab"
+                                        data-bs-toggle="pill" data-bs-target="#pills-home-1" role="tab"
+                                        aria-selected="true">Whatsapp</a>
+                                </li>
+                                <li class="nav-item mb-1 " role="presentation">
+                                    <a href="" class="nav-link  border-0 me-2 fw-bold" id="pills-profile-tab-2"
+                                        data-bs-toggle="pill" data-bs-target="#pills-home-2" role="tab"
+                                        aria-selected="false">Facebook</a>
+                                </li>
+                                <li class="nav-item mb-1" role="presentation">
+                                    <a href="" class="nav-link  border-0 me-2 fw-bold " id="pills-profile-tab-3"
+                                        data-bs-toggle="pill" data-bs-target="#pills-home-3" role="tab"
+                                        aria-selected="false">Google</a>
+                                </li>
+                                <li class="nav-item mb-1" role="presentation">
 
-                                </ul>
-                            </div>
+                                    <a href="" class="nav-link  border-0 me-2 fw-bold " id="pills-profile-tab-4"
+                                        data-bs-toggle="pill" data-bs-target="#pills-home-4" role="tab"
+                                        aria-selected="false">Instagram</a>
+                                </li>
 
-                            <div class="tab-content mt-4" id="pills-tabContent">
-                                <div class="tab-pane fade show active" id="pills-home-1" role="tabpanel"
-                                    aria-labelledby="pills-home-tab">
-                                    <div class="row">
-                                        <div class="col-md-12 col-lg-6">
-                                            <div class="testimonials-box bg-white p-3 mb-4">
-                                                <img class="float-sm-start rounded-circle me-3"
-                                                    src="assets/images/testimonials-1.jpg" alt="">
+                            </ul>
+                        </div>
 
-                                                <div class="testimonial-ratting ">
-                                                    <p class="mb-1 small fw-bold ">Christopher J. Mayhew</p>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star-half-alt"></i>
-                                                </div>
-                                                <p class="mt-3 mb-0">Easy to talk to and thorough, making for a really
-                                                    good
-                                                    experience overall.</p>
+                        <div class="tab-content mt-4" id="pills-tabContent">
+                            <div class="tab-pane fade show active" id="pills-home-1" role="tabpanel"
+                                aria-labelledby="pills-home-tab">
+                                <div class="row">
+                                    <div class="col-md-12 col-lg-6">
+                                        <div class="testimonials-box bg-white p-3 mb-4">
+                                            <img class="float-sm-center float-md-start rounded-circle me-3"
+                                                src="assets/images/testimonials-1.jpg" alt="">
+
+                                            <div class="testimonial-ratting ">
+                                                <p class="mb-1 small fw-bold ">Christopher J. Mayhew</p>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star-half-alt"></i>
                                             </div>
-                                        </div>
-
-                                        <div class="col-md-12 col-lg-6">
-                                            <div class="testimonials-box bg-white p-3 mb-4">
-                                                <img class="float-sm-start rounded-circle me-3"
-                                                    src="assets/images/testimonials-2.jpg" alt="">
-
-                                                <div class="testimonial-ratting ">
-                                                    <p class="mb-1 small fw-bold ">Anthony A. Reyes</p>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star-half-alt"></i>
-                                                    <i class="far fa-star"></i>
-                                                </div>
-                                                <p class="mt-3 mb-0">Easy to talk to and thorough, making for a really
-                                                    good
-                                                    experience overall.</p>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-md-12 col-lg-6">
-                                            <div class="testimonials-box bg-white p-3 mb-4">
-                                                <img class="float-sm-start rounded-circle me-3"
-                                                    src="assets/images/testimonials-3.jpg" alt="">
-
-                                                <div class="testimonial-ratting ">
-                                                    <p class="mb-1 small fw-bold ">Larry N. Johnson</p>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                </div>
-                                                <p class="mt-3 mb-0">Easy to talk to and thorough, making for a really
-                                                    good
-                                                    experience overall.</p>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-md-12 col-lg-6">
-                                            <div class="testimonials-box bg-white p-3 mb-4">
-                                                <img class="float-sm-start rounded-circle me-3"
-                                                    src="assets/images/testimonials-4.jpg" alt="">
-
-                                                <div class="testimonial-ratting ">
-                                                    <p class="mb-1 small fw-bold ">Candice F. Chambers</p>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star-half-alt"></i>
-                                                    <i class="far fa-star"></i>
-                                                    <i class="far fa-star"></i>
-
-                                                </div>
-                                                <p class="mt-3 mb-0">Easy to talk to and thorough, making for a really
-                                                    good
-                                                    experience overall.</p>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-12 col-lg-6">
-                                            <div class="testimonials-box bg-white p-3 mb-4">
-                                                <img class="float-sm-start rounded-circle me-3"
-                                                    src="assets/images/testimonials-5.jpg" alt="">
-
-                                                <div class="testimonial-ratting ">
-                                                    <p class="mb-1 small fw-bold ">Joshua B. Stewart</p>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star-half-alt"></i>
-                                                    <i class="far fa-star"></i>
-                                                    <i class="far fa-star"></i>
-                                                    <i class="far fa-star"></i>
-
-                                                </div>
-                                                <p class="mt-3 mb-0">Easy to talk to and thorough, making for a really
-                                                    good
-                                                    experience overall.</p>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-12 col-lg-6">
-                                            <div class="testimonials-box bg-white p-3 mb-4">
-                                                <img class="float-sm-start rounded-circle me-3"
-                                                    src="assets/images/testimonials-6.jpg" alt="">
-
-                                                <div class="testimonial-ratting ">
-                                                    <p class="mb-1 small fw-bold ">Eduardo R. Bryant</p>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-
-                                                </div>
-                                                <p class="mt-3 mb-0">Easy to talk to and thorough, making for a really
-                                                    good
-                                                    experience overall.</p>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-12 col-lg-6">
-                                            <div class="testimonials-box bg-white p-3 mb-4">
-                                                <img class="float-sm-start rounded-circle me-3"
-                                                    src="assets/images/testimonials-7.jpg" alt="">
-
-                                                <div class="testimonial-ratting ">
-                                                    <p class="mb-1 small fw-bold ">William E. Staton</p>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star-half-alt"></i>
-                                                </div>
-                                                <p class="mt-3 mb-0">Easy to talk to and thorough, making for a really
-                                                    good
-                                                    experience overall.</p>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-12 col-lg-6">
-                                            <div class="testimonials-box bg-white p-3 mb-4">
-                                                <img class="float-sm-start rounded-circle me-3"
-                                                    src="assets/images/testimonials-8.jpg" alt="">
-
-                                                <div class="testimonial-ratting ">
-                                                    <p class="mb-1 small fw-bold ">Delmar L. Hogan</p>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star-half-alt"></i>
-                                                </div>
-                                                <p class="mt-3 mb-0">Easy to talk to and thorough, making for a really
-                                                    good
-                                                    experience overall.</p>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                </div>
-                                <div class="tab-pane fade" id="pills-home-2" role="tabpanel">
-                                    <div class="row">
-
-                                        <div class="col-md-12 col-lg-6">
-                                            <div class="testimonials-box bg-white p-3 mb-4">
-                                                <img class="float-sm-start rounded-circle me-3"
-                                                    src="assets/images/testimonials-9.jpg" alt="">
-
-                                                <div class="testimonial-ratting ">
-                                                    <p class="mb-1 small fw-bold ">Carson D. Tonkin</p>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star-half-alt"></i>
-                                                </div>
-                                                <p class="mt-3 mb-0">One of the best facilities I’ve been to. Surely
-                                                    will
-                                                    recommend this to others. Thank you for the great service!!</p>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-12 col-lg-6">
-                                            <div class="testimonials-box bg-white p-3 mb-4">
-                                                <img class="float-sm-start rounded-circle me-3"
-                                                    src="assets/images/testimonials-10.jpg" alt="">
-
-                                                <div class="testimonial-ratting ">
-                                                    <p class="mb-1 small fw-bold ">Larry T. Carrillo</p>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star-half-alt"></i>
-                                                </div>
-                                                <p class="mt-3 mb-0">One of the best facilities I’ve been to. Surely
-                                                    will
-                                                    recommend this to others. Thank you for the great service!!</p>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-12 col-lg-6">
-                                            <div class="testimonials-box bg-white p-3 mb-4">
-                                                <img class="float-sm-start rounded-circle me-3"
-                                                    src="assets/images/testimonials-11.jpg" alt="">
-
-                                                <div class="testimonial-ratting ">
-                                                    <p class="mb-1 small fw-bold ">Billy A. Dorsey</p>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star-half-alt"></i>
-                                                    <i class="far fa-star"></i>
-
-                                                </div>
-                                                <p class="mt-3 mb-0">One of the best facilities I’ve been to. Surely
-                                                    will
-                                                    recommend this to others. Thank you for the great service!!</p>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-12 col-lg-6">
-                                            <div class="testimonials-box bg-white p-3 mb-4">
-                                                <img class="float-sm-start rounded-circle me-3"
-                                                    src="assets/images/testimonials-12.jpg" alt="">
-
-                                                <div class="testimonial-ratting ">
-                                                    <p class="mb-1 small fw-bold ">Jeri M. Gentry</p>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star-half-alt"></i>
-                                                </div>
-                                                <p class="mt-3 mb-0">One of the best facilities I’ve been to. Surely
-                                                    will
-                                                    recommend this to others. Thank you for the great service!!</p>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-12 col-lg-6">
-                                            <div class="testimonials-box bg-white p-3 mb-4">
-                                                <img class="float-sm-start rounded-circle me-3"
-                                                    src="assets/images/testimonials-13.jpg" alt="">
-
-                                                <div class="testimonial-ratting ">
-                                                    <p class="mb-1 small fw-bold ">Dwayne A. Monger</p>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star-half-alt"></i>
-                                                    <i class="far fa-star"></i>
-
-                                                </div>
-                                                <p class="mt-3 mb-0">One of the best facilities I’ve been to. Surely
-                                                    will
-                                                    recommend this to others. Thank you for the great service!!</p>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-12 col-lg-6">
-                                            <div class="testimonials-box bg-white p-3 mb-4">
-                                                <img class="float-sm-start rounded-circle me-3"
-                                                    src="assets/images/testimonials-14.jpg" alt="">
-
-                                                <div class="testimonial-ratting ">
-                                                    <p class="mb-1 small fw-bold ">Jose D. Bagwell</p>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star-half-alt"></i>
-                                                </div>
-                                                <p class="mt-3 mb-0">One of the best facilities I’ve been to. Surely
-                                                    will
-                                                    recommend this to others. Thank you for the great service!!</p>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-12 col-lg-6">
-                                            <div class="testimonials-box bg-white p-3 mb-4">
-                                                <img class="float-sm-start rounded-circle me-3"
-                                                    src="assets/images/testimonials-15.jpg" alt="">
-
-                                                <div class="testimonial-ratting ">
-                                                    <p class="mb-1 small fw-bold ">Joshua M. Barba</p>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star-half-alt"></i>
-                                                </div>
-                                                <p class="mt-3 mb-0">One of the best facilities I’ve been to. Surely
-                                                    will
-                                                    recommend this to others. Thank you for the great service!!</p>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-12 col-lg-6">
-                                            <div class="testimonials-box bg-white p-3 mb-4">
-                                                <img class="float-sm-start rounded-circle me-3"
-                                                    src="assets/images/testimonials-16.jpg" alt="">
-
-                                                <div class="testimonial-ratting ">
-                                                    <p class="mb-1 small fw-bold ">Roosevelt E. Dilworth</p>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star-half-alt"></i>
-                                                    <i class="far fa-star"></i>
-                                                    <i class="far fa-star"></i>
-
-                                                </div>
-                                                <p class="mt-3 mb-0">One of the best facilities I’ve been to. Surely
-                                                    will
-                                                    recommend this to others. Thank you for the great service!!</p>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-12 col-lg-6">
-                                            <div class="testimonials-box bg-white p-3 mb-4">
-                                                <img class="float-sm-start rounded-circle me-3"
-                                                    src="assets/images/testimonials-17.jpg" alt="">
-
-                                                <div class="testimonial-ratting ">
-                                                    <p class="mb-1 small fw-bold ">Rhonda A. Johnson</p>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star-half-alt"></i>
-                                                    <i class="far fa-star"></i>
-
-                                                </div>
-                                                <p class="mt-4 mb-0">One of the best facilities I’ve been to. Surely
-                                                    will
-                                                    recommend this to others. Thank you for the great service!!</p>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-12 col-lg-6">
-                                            <div class="testimonials-box bg-white p-3 mb-4">
-                                                <img class="float-sm-start rounded-circle me-3"
-                                                    src="assets/images/testimonials-18.jpg" alt="">
-
-                                                <div class="testimonial-ratting ">
-                                                    <p class="mb-1 small fw-bold ">Sheryl T. Keith</p>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-
-                                                </div>
-                                                <p class="mt-3 mb-0">One of the best facilities I’ve been to. Surely
-                                                    will
-                                                    recommend this to others. Thank you for the great service!!</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="tab-pane fade" id="pills-home-3" role="tabpanel">
-                                    <div class="row">
-                                        <div class="col-md-12 col-lg-6">
-                                            <div class="testimonials-box bg-white p-3 mb-4">
-                                                <img class="float-sm-start rounded-circle me-3"
-                                                    src="assets/images/testimonials-18.jpg" alt="">
-
-                                                <div class="testimonial-ratting ">
-                                                    <p class="mb-1 small fw-bold ">Cassandra B. Edwards</p>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-
-                                                </div>
-                                                <p class="mt-3 mb-0">My first visit to Medical Offices of Manhattan was
-                                                    perfect. The registration and check in process is fast and easy – I
-                                                    love
-                                                    the electronic tablets and the staff is very welcoming. I cannot say
-                                                    enough positive things about Dr. Seilhan. Her holistic approach to
-                                                    medicine, and listening skills are refreshing. while speaking to her
-                                                    I
-                                                    felt as if I were the only patient she had to see that day. Thank
-                                                    you!
-                                                </p>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-12 col-lg-6">
-                                            <div class="testimonials-box bg-white p-3 mb-4">
-                                                <img class="float-sm-start rounded-circle me-3"
-                                                    src="assets/images/testimonials-19.jpg" alt="">
-
-                                                <div class="testimonial-ratting ">
-                                                    <p class="mb-1 small fw-bold ">Cassandra B. Edwards</p>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-
-                                                </div>
-                                                <p class="mt-3 mb-0">My first visit to Medical Offices of Manhattan was
-                                                    perfect. The registration and check in process is fast and easy – I
-                                                    love
-                                                    the electronic tablets and the staff is very welcoming. I cannot say
-                                                    enough positive things about Dr. Seilhan. Her holistic approach to
-                                                    medicine, and listening skills are refreshing. while speaking to her
-                                                    I
-                                                    felt as if I were the only patient she had to see that day. Thank
-                                                    you!
-                                                </p>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-12 col-lg-6">
-                                            <div class="testimonials-box bg-white p-3 mb-4">
-                                                <img class="float-sm-start rounded-circle me-3"
-                                                    src="assets/images/testimonials-20.jpg" alt="">
-
-                                                <div class="testimonial-ratting ">
-                                                    <p class="mb-1 small fw-bold ">Cassandra B. Edwards</p>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-
-                                                </div>
-                                                <p class="mt-3 mb-0">My first visit to Medical Offices of Manhattan was
-                                                    perfect. The registration and check in process is fast and easy – I
-                                                    love
-                                                    the electronic tablets and the staff is very welcoming. I cannot say
-                                                    enough positive things about Dr. Seilhan. Her holistic approach to
-                                                    medicine, and listening skills are refreshing. while speaking to her
-                                                    I
-                                                    felt as if I were the only patient she had to see that day. Thank
-                                                    you!
-                                                </p>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-12 col-lg-6">
-                                            <div class="testimonials-box bg-white p-3 mb-4">
-                                                <img class="float-sm-start rounded-circle me-3"
-                                                    src="assets/images/testimonials-22.jpg" alt="">
-
-                                                <div class="testimonial-ratting ">
-                                                    <p class="mb-1 small fw-bold ">Cassandra B. Edwards</p>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-
-                                                </div>
-                                                <p class="mt-3 mb-0">My first visit to Medical Offices of Manhattan was
-                                                    perfect. The registration and check in process is fast and easy – I
-                                                    love
-                                                    the electronic tablets and the staff is very welcoming. I cannot say
-                                                    enough positive things about Dr. Seilhan. Her holistic approach to
-                                                    medicine, and listening skills are refreshing. while speaking to her
-                                                    I
-                                                    felt as if I were the only patient she had to see that day. Thank
-                                                    you!
-                                                </p>
-                                            </div>
+                                            <p class="mt-3 mb-0">To he by guard solitary offering after him, all
+                                                founded, get anchors a soon the parameters more another, touched
+                                                downstairs th</p>
                                         </div>
                                     </div>
 
-                                </div>
-                                <div class="tab-pane fade" id="pills-home-4" role="tabpanel">
-                                    <div class="row">
-                                        <div class="col-md-12 col-lg-6">
-                                            <div class="testimonials-box bg-white p-3 mb-4">
-                                                <img class="float-sm-start rounded-circle me-3"
-                                                    src="assets/images/testimonials-23.jpg" alt="">
+                                    <div class="col-md-12 col-lg-6">
+                                        <div class="testimonials-box bg-white p-3 mb-4">
+                                            <img class="float-sm-center float-md-start rounded-circle me-3"
+                                                src="assets/images/testimonials-2.jpg" alt="">
 
-                                                <div class="testimonial-ratting ">
-                                                    <p class="mb-1 small fw-bold ">Juan A. Neuhaus</p>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-
-                                                </div>
-                                                <p class="mt-3 mb-0">Easy to talk to and thorough, making for a really
-                                                    good experience overall.
-                                                </p>
+                                            <div class="testimonial-ratting ">
+                                                <p class="mb-1 small fw-bold ">Anthony A. Reyes</p>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star-half-alt"></i>
+                                                <i class="far fa-star"></i>
                                             </div>
+                                            <p class="mt-3 mb-0">Drew on. Mainly them. Richer apartment, seven avoid his
+                                                their an a the have never commitment from and made long</p>
                                         </div>
-                                        <div class="col-md-12 col-lg-6">
-                                            <div class="testimonials-box bg-white p-3 mb-4">
-                                                <img class="float-sm-start rounded-circle me-3"
-                                                    src="assets/images/testimonials-24.jpg" alt="">
+                                    </div>
 
-                                                <div class="testimonial-ratting ">
-                                                    <p class="mb-1 small fw-bold ">Juan A. Neuhaus</p>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
+                                    <div class="col-md-12 col-lg-6">
+                                        <div class="testimonials-box bg-white p-3 mb-4">
+                                            <img class="float-sm-center float-md-start rounded-circle me-3"
+                                                src="assets/images/testimonials-3.jpg" alt="">
 
-                                                </div>
-                                                <p class="mt-3 mb-0">Easy to talk to and thorough, making for a really
-                                                    good experience overall.
-                                                </p>
+                                            <div class="testimonial-ratting ">
+                                                <p class="mb-1 small fw-bold ">Larry N. Johnson</p>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
                                             </div>
+                                            <p class="mt-3 mb-0">Chooses he no then, could by judgment, smaller as
+                                                stupid conflict- have horses it out. Which blocks rest derisively</p>
                                         </div>
-                                        <div class="col-md-12 col-lg-6">
-                                            <div class="testimonials-box bg-white p-3 mb-4">
-                                                <img class="float-sm-start rounded-circle me-3"
-                                                    src="assets/images/testimonials-25.jpg" alt="">
+                                    </div>
 
-                                                <div class="testimonial-ratting ">
-                                                    <p class="mb-1 small fw-bold ">Juan A. Neuhaus</p>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
+                                    <div class="col-md-12 col-lg-6">
+                                        <div class="testimonials-box bg-white p-3 mb-4">
+                                            <img class="float-sm-center float-md-start rounded-circle me-3"
+                                                src="assets/images/testimonials-4.jpg" alt="">
 
-                                                </div>
-                                                <p class="mt-3 mb-0">Easy to talk to and thorough, making for a really
-                                                    good experience overall.
-                                                </p>
+                                            <div class="testimonial-ratting ">
+                                                <p class="mb-1 small fw-bold ">Candice F. Chambers</p>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star-half-alt"></i>
+                                                <i class="far fa-star"></i>
+                                                <i class="far fa-star"></i>
+
                                             </div>
+                                            <p class="mt-3 mb-0">View. And bulletin their console are by value at were
+                                                second the our more a interesting of with cheek</p>
                                         </div>
-                                        <div class="col-md-12 col-lg-6">
-                                            <div class="testimonials-box bg-white p-3 mb-4">
-                                                <img class="float-sm-start rounded-circle me-3"
-                                                    src="assets/images/testimonials-26.jpg" alt="">
+                                    </div>
+                                    <div class="col-md-12 col-lg-6">
+                                        <div class="testimonials-box bg-white p-3 mb-4">
+                                            <img class="float-sm-center float-md-start rounded-circle me-3"
+                                                src="assets/images/testimonials-5.jpg" alt="">
 
-                                                <div class="testimonial-ratting ">
-                                                    <p class="mb-1 small fw-bold ">Juan A. Neuhaus</p>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
+                                            <div class="testimonial-ratting ">
+                                                <p class="mb-1 small fw-bold ">Joshua B. Stewart</p>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star-half-alt"></i>
+                                                <i class="far fa-star"></i>
+                                                <i class="far fa-star"></i>
+                                                <i class="far fa-star"></i>
 
-                                                </div>
-                                                <p class="mt-3 mb-0">Easy to talk to and thorough, making for a really
-                                                    good experience overall.
-                                                </p>
                                             </div>
+                                            <p class="mt-3 mb-0">Called out phase. Destined would are, trying the
+                                                contribution hardly pain deference something you ship</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12 col-lg-6">
+                                        <div class="testimonials-box bg-white p-3 mb-4">
+                                            <img class="float-sm-center float-md-start rounded-circle me-3"
+                                                src="assets/images/testimonials-6.jpg" alt="">
+
+                                            <div class="testimonial-ratting ">
+                                                <p class="mb-1 small fw-bold ">Eduardo R. Bryant</p>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+
+                                            </div>
+                                            <p class="mt-3 mb-0">So what to set steps dropped attend; The a let divided
+                                                tuned where structure great and intention hazardou</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12 col-lg-6">
+                                        <div class="testimonials-box bg-white p-3 mb-4">
+                                            <img class="float-sm-center float-md-start rounded-circle me-3"
+                                                src="assets/images/testimonials-7.jpg" alt="">
+
+                                            <div class="testimonial-ratting ">
+                                                <p class="mb-1 small fw-bold ">William E. Staton</p>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star-half-alt"></i>
+                                            </div>
+                                            <p class="mt-3 mb-0">Be the there in actually for how those thought,
+                                                especially may that who and young make consider and I concept</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12 col-lg-6">
+                                        <div class="testimonials-box bg-white p-3 mb-4">
+                                            <img class="float-sm-center float-md-start rounded-circle me-3"
+                                                src="assets/images/testimonials-8.jpg" alt="">
+
+                                            <div class="testimonial-ratting ">
+                                                <p class="mb-1 small fw-bold ">Delmar L. Hogan</p>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star-half-alt"></i>
+                                            </div>
+                                            <p class="mt-3 mb-0">Got my far the and of how catch shall character the
+                                                economics, harmonics that royal in late, us, an better of is expand</p>
                                         </div>
                                     </div>
 
                                 </div>
                             </div>
-                      
+                            <div class="tab-pane fade" id="pills-home-2" role="tabpanel">
+                                <div class="row">
+
+                                    <div class="col-md-12 col-lg-6">
+                                        <div class="testimonials-box bg-white p-3 mb-4">
+                                            <img class="float-sm-center float-md-start rounded-circle me-3"
+                                                src="assets/images/testimonials-9.jpg" alt="">
+
+                                            <div class="testimonial-ratting ">
+                                                <p class="mb-1 small fw-bold ">Carson D. Tonkin</p>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star-half-alt"></i>
+                                            </div>
+                                            <p class="mt-3 mb-0">If collection five I with of frequency Mr. Hunt, examination with and may problem. Down ran you release were </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12 col-lg-6">
+                                        <div class="testimonials-box bg-white p-3 mb-4">
+                                            <img class="float-sm-center float-md-start rounded-circle me-3"
+                                                src="assets/images/testimonials-10.jpg" alt="">
+
+                                            <div class="testimonial-ratting ">
+                                                <p class="mb-1 small fw-bold ">Larry T. Carrillo</p>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star-half-alt"></i>
+                                            </div>
+                                            <p class="mt-3 mb-0">Up considerations, and bathroom person, of into their spirits of the my relays children coast on tones several in</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12 col-lg-6">
+                                        <div class="testimonials-box bg-white p-3 mb-4">
+                                            <img class="float-sm-center float-md-start rounded-circle me-3"
+                                                src="assets/images/testimonials-11.jpg" alt="">
+
+                                            <div class="testimonial-ratting ">
+                                                <p class="mb-1 small fw-bold ">Billy A. Dorsey</p>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star-half-alt"></i>
+                                                <i class="far fa-star"></i>
+
+                                            </div>
+                                            <p class="mt-3 mb-0">Ever present the to sure associate a what fate hero's it roasted interaction original together twice to be done</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12 col-lg-6">
+                                        <div class="testimonials-box bg-white p-3 mb-4">
+                                            <img class="float-sm-center float-md-start rounded-circle me-3"
+                                                src="assets/images/testimonials-12.jpg" alt="">
+
+                                            <div class="testimonial-ratting ">
+                                                <p class="mb-1 small fw-bold ">Jeri M. Gentry</p>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star-half-alt"></i>
+                                            </div>
+                                            <p class="mt-3 mb-0">Could links a him it the rome; Point the college for you'd the familiarity into few display, started expecting enough</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12 col-lg-6">
+                                        <div class="testimonials-box bg-white p-3 mb-4">
+                                            <img class="float-sm-center float-md-start rounded-circle me-3"
+                                                src="assets/images/testimonials-13.jpg" alt="">
+
+                                            <div class="testimonial-ratting ">
+                                                <p class="mb-1 small fw-bold ">Dwayne A. Monger</p>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star-half-alt"></i>
+                                                <i class="far fa-star"></i>
+
+                                            </div>
+                                            <p class="mt-3 mb-0">Was quietly rationale longer a very by have he project you've the simple, it about gradually so, one his founded, sports.</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12 col-lg-6">
+                                        <div class="testimonials-box bg-white p-3 mb-4">
+                                            <img class="float-sm-center float-md-start rounded-circle me-3"
+                                                src="assets/images/testimonials-14.jpg" alt="">
+
+                                            <div class="testimonial-ratting ">
+                                                <p class="mb-1 small fw-bold ">Jose D. Bagwell</p>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star-half-alt"></i>
+                                            </div>
+                                            <p class="mt-3 mb-0">Shortcuts. Couple the but one odd means, client in little the there the mechanic. Best. Have that wanted and compensation</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12 col-lg-6">
+                                        <div class="testimonials-box bg-white p-3 mb-4">
+                                            <img class="float-sm-center float-md-start rounded-circle me-3"
+                                                src="assets/images/testimonials-15.jpg" alt="">
+
+                                            <div class="testimonial-ratting ">
+                                                <p class="mb-1 small fw-bold ">Joshua M. Barba</p>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star-half-alt"></i>
+                                            </div>
+                                            <p class="mt-3 mb-0">First almost not he started and to about semantics, preparation the do him, one in be train follow done from the I me</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12 col-lg-6">
+                                        <div class="testimonials-box bg-white p-3 mb-4">
+                                            <img class="float-sm-center float-md-start rounded-circle me-3"
+                                                src="assets/images/testimonials-16.jpg" alt="">
+
+                                            <div class="testimonial-ratting ">
+                                                <p class="mb-1 small fw-bold ">Roosevelt E. Dilworth</p>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star-half-alt"></i>
+                                                <i class="far fa-star"></i>
+                                                <i class="far fa-star"></i>
+
+                                            </div>
+                                            <p class="mt-3 mb-0">Even that schemes suppliers, bulletin explanation throughout bored it what's always to admittance, is to happening,</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12 col-lg-6">
+                                        <div class="testimonials-box bg-white p-3 mb-4">
+                                            <img class="float-sm-center float-md-start rounded-circle me-3"
+                                                src="assets/images/testimonials-17.jpg" alt="">
+
+                                            <div class="testimonial-ratting ">
+                                                <p class="mb-1 small fw-bold ">Rhonda A. Johnson</p>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star-half-alt"></i>
+                                                <i class="far fa-star"></i>
+
+                                            </div>
+                                            <p class="mt-4 mb-0">Could duckthemed of was get for sight software on. May ability will years had fully book client applications </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12 col-lg-6">
+                                        <div class="testimonials-box bg-white p-3 mb-4">
+                                            <img class="float-sm-center float-md-start rounded-circle me-3"
+                                                src="assets/images/testimonials-18.jpg" alt="">
+
+                                            <div class="testimonial-ratting ">
+                                                <p class="mb-1 small fw-bold ">Sheryl T. Keith</p>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+
+                                            </div>
+                                            <p class="mt-3 mb-0">Have is happening, what creating bold, his increasing the hollow the that in feedback writing from to gods, he for</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="pills-home-3" role="tabpanel">
+                                <div class="row">
+                                    <div class="col-md-12 col-lg-6">
+                                        <div class="testimonials-box bg-white p-3 mb-4">
+                                            <img class="float-sm-center float-md-start rounded-circle me-3"
+                                                src="assets/images/testimonials-18.jpg" alt="">
+
+                                            <div class="testimonial-ratting ">
+                                                <p class="mb-1 small fw-bold ">Cassandra B. Edwards</p>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+
+                                            </div>
+                                            <p class="mt-3 mb-0">Sentences when the reasoning to suppliers, their approach time. Briefs a turn biases, the been that she eightypercent to fellow and until her of shut its outside by no anyone. the been that she eightypercent to fellow and until her of shut its outside by no anyone. the been that she eightypercent to fellow and until her of shut its outside by no anyone. objects vanished heard and his him
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12 col-lg-6">
+                                        <div class="testimonials-box bg-white p-3 mb-4">
+                                            <img class="float-sm-center float-md-start rounded-circle me-3"
+                                                src="assets/images/testimonials-19.jpg" alt="">
+
+                                            <div class="testimonial-ratting ">
+                                                <p class="mb-1 small fw-bold ">Cassandra B. Edwards</p>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+
+                                            </div>
+                                            <p class="mt-3 mb-0">My first visit to Medical Offices of Manhattan was
+                                                perfect. The registration and check in process is fast and easy – I
+                                                love
+                                                the electronic tablets and the staff is very welcoming. I cannot say
+                                                enough positive things about Dr. Seilhan. Her holistic approach to
+                                                medicine, and listening skills are refreshing. while speaking to her
+                                                I
+                                                felt as if I were the only patient she had to see that day. Thank
+                                                you!
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12 col-lg-6">
+                                        <div class="testimonials-box bg-white p-3 mb-4">
+                                            <img class="float-sm-center float-md-start rounded-circle me-3"
+                                                src="assets/images/testimonials-20.jpg" alt="">
+
+                                            <div class="testimonial-ratting ">
+                                                <p class="mb-1 small fw-bold ">Cassandra B. Edwards</p>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+
+                                            </div>
+                                            <p class="mt-3 mb-0">Back the supplies richer writing that's I shine. Title part. All just come a service but some long lamps. The in must king whose shall, in our brief this of we he human and although versus coffee was scale
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12 col-lg-6">
+                                        <div class="testimonials-box bg-white p-3 mb-4">
+                                            <img class="float-sm-center float-md-start rounded-circle me-3"
+                                                src="assets/images/testimonials-22.jpg" alt="">
+
+                                            <div class="testimonial-ratting ">
+                                                <p class="mb-1 small fw-bold ">Cassandra B. Edwards</p>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+
+                                            </div>
+                                            <p class="mt-3 mb-0">He this he between the rolled to the to exerted economic the aside, assisted orthographic and language at quarter might town material have me. They the watching to her any to of the they never no name
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="tab-pane fade" id="pills-home-4" role="tabpanel">
+                                <div class="row">
+                                    <div class="col-md-12 col-lg-6">
+                                        <div class="testimonials-box bg-white p-3 mb-4">
+                                            <img class="float-sm-center float-md-start rounded-circle me-3"
+                                                src="assets/images/testimonials-23.jpg" alt="">
+
+                                            <div class="testimonial-ratting ">
+                                                <p class="mb-1 small fw-bold ">Juan A. Neuhaus</p>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+
+                                            </div>
+                                            <p class="mt-3 mb-0">Easy to talk to and thorough, making for a really
+                                                good experience overall. Create of of a embarrassed of and long to by 
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12 col-lg-6">
+                                        <div class="testimonials-box bg-white p-3 mb-4">
+                                            <img class="float-sm-center float-md-start rounded-circle me-3"
+                                                src="assets/images/testimonials-24.jpg" alt="">
+
+                                            <div class="testimonial-ratting ">
+                                                <p class="mb-1 small fw-bold ">Juan A. Neuhaus</p>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+
+                                            </div>
+                                            <p class="mt-3 mb-0">The key a by most will that we in attributing affects to morals, and small career front we office all empty sleepiness
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12 col-lg-6">
+                                        <div class="testimonials-box bg-white p-3 mb-4">
+                                            <img class="float-sm-center float-md-start rounded-circle me-3"
+                                                src="assets/images/testimonials-25.jpg" alt="">
+
+                                            <div class="testimonial-ratting ">
+                                                <p class="mb-1 small fw-bold ">Juan A. Neuhaus</p>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+
+                                            </div>
+                                            <p class="mt-3 mb-0">Rush sufficient I the and the to of little may the would antiquity we hair made issued to for my that distant a in
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12 col-lg-6">
+                                        <div class="testimonials-box bg-white p-3 mb-4">
+                                            <img class="float-sm-center float-md-start rounded-circle me-3"
+                                                src="assets/images/testimonials-26.jpg" alt="">
+
+                                            <div class="testimonial-ratting ">
+                                                <p class="mb-1 small fw-bold ">Juan A. Neuhaus</p>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+
+                                            </div>
+                                            <p class="mt-3 mb-0">For believe. In in, first minutes school. Easier the his Mr. Were often the phase the on I come named and be
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>
         </div>
     </section>
-   
+
     <!--  ====================== Testimonials Area End =============================  -->
-    <div class="back-to-top text-center">
-
-        <div class="container">
-
-            <div class="back-to-top-icon">
-                <a href="#"><i class="fas fa-angle-up fs-5"></i></a></div>
-        </div>
-    </div>
     <!--  ====================== Footer Area Start  =============================  -->
-    <section class="footer-area py-5 bg-light">
+    <section class="footer-area py-5 border-top ">
         <div class="container">
-            <div class="row align-items-center">
-                <div class="col-md-7 col-sm-12 col-12">
-                    <div class="footer-widget  text-sm-center text-md-start mb-sm-4">
-                        <h5><a href="index.html" class="footer-logo mb-4  fw-bold"> Minimalism</a> </h5>
-                        <p class=" m-0 ">©
-                            <span id="spanYear"></span> Minimalism Design with <i class="far fa-heart text-danger"></i>
-                            by <a class="text-primary" href="https://themeix.com">themeix</a>.
-                        </p>
+            <div class="row ">
+                <div class="col-md-5 col-sm-12 col-12">
+                    <div class="footer-widget  text-sm-center text-md-start mb-sm-4 mb-4">
+                        <h5 class="mb-3">Tag Cloud </h5>
+                        <ul class="tag-cloud list-inline">
+                            <li class="list-inline-item mb-3"><a class="btn bg-light text-dark "
+                                    href="tag.html">Nature</a>
+                            </li>
+                            <li class="list-inline-item mb-3"><a class="btn bg-light text-dark "
+                                    href="tag.html">Fashion</a>
+                            </li>
+                            <li class="list-inline-item mb-3"><a class="btn bg-light text-dark "
+                                    href="tag.html">Wordpress</a></li>
+                            <li class="list-inline-item mb-3"><a class="btn bg-light text-secondary "
+                                    href="tag.html">Photo</a>
+                            </li>
+                            <li class="list-inline-item mb-3"><a class="btn bg-light text-dark "
+                                    href="tag.html">Travel</a>
+                            </li>
+                            <li class="list-inline-item"><a class="btn bg-light text-dark " href="tag.html">Hotel</a>
+                            </li>
 
-
-                    </div>
-                </div>
-                <div class="col-md-5  col-sm-12 col-12">
-                    <div class="footer-widget  text-md-end  text-sm-center">
-                        <ul class="footer-social-list list-inline m-0">
-                            <li class="list-inline-item"><a href=""><i class="fab fa-facebook-f"></i></a>
-                            </li>
-                            <li class="list-inline-item"><a href=""><i class="fab fa-twitter"></i></a></li>
-                            <li class="list-inline-item"><a href=""><i class="fab fa-instagram"></i></a>
-                            </li>
-                            <li class="list-inline-item"><a href=""><i class="fab fa-linkedin-in"></i></a>
-                            </li>
                         </ul>
+
+                        <div class="footer-widget  text-md-start  text-sm-center">
+                            <h5 class="mb-3">Social Media</h5>
+                            <ul class="footer-social-list list-inline m-0">
+                                <li class="list-inline-item"><a href=""><i class="fab fa-facebook-f"></i></a>
+                                </li>
+                                <li class="list-inline-item"><a href=""><i class="fab fa-twitter"></i></a></li>
+                                <li class="list-inline-item"><a href=""><i class="fab fa-instagram"></i></a>
+                                </li>
+                                <li class="list-inline-item"><a href=""><i class="fab fa-linkedin-in"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-5 offset-md-2  col-sm-12 col-12">
+                    <div class="footer-widget  text-md-end  text-sm-center">
+                        <h5 class="mb-3">Subscribe Now</h5>
+                        <form action="#" class="newsletter-form">
+                            <div class="input-group">
+                                <input type="email" class="form-control" placeholder="Your Email">
+                                <button class="btn btn-primary text-white " type="submit">
+                                    Submit</button>
+                            </div>
+                        </form>
                     </div>
                 </div>
+
+
 
             </div>
+
+
+            <div class="footer-copyright text-sm pt-5 text-sm-center text-md-start border-top  ">
+                <div class="row">
+                    <div class="col-md-6">
+                        <p>
+                            <span>
+                                © <span id="spanYear"></span> Minimalism -
+                                <span>Design with <i class="fa fa-heart text-danger"></i> by <a target="_blank"
+                                        href="https://themeix.com">Themeix</a> </span>
+
+                            </span>
+                        </p>
+                    </div>
+                    <div class="col-md-6 text-md-end">
+                        <p><a href="privacy-policy.html">Privacy Policy</a></p>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </section>
 

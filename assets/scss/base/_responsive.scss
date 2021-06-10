@@ -1,7 +1,9 @@
 /* ============================================== 
   Media Query : 1200px
 ============================================== */
-@media only screen and (max-width:1199px) {}
+@media only screen and (max-width:1199px) {
+
+}
 
 
 
@@ -23,6 +25,10 @@
     background-color: $white !important;
     box-shadow: $box-shadow-sm !important;
   }
+
+  div#tabs-click ul li a {
+    padding: 13px;
+}
 }
 
 
@@ -44,8 +50,9 @@
   ul.pagination {
     display: inline-flex;
   }
-
  
+ 
+
 }
 
 
@@ -56,18 +63,28 @@
 ============================================== */
 @media only screen and (max-width: 575px) {
 
-  .banner-left {
+  .site-sidebar {
     text-align: center;
 
   }
 
-  .banner-site {
-    margin-bottom: 1.875rem !important;
+  .footer-area {
+    text-align: center;
+  }
+
+  .page-title-warpper {
+    margin-top: 1.875rem !important;
   }
 
 
-  .banner-right {
+  .content-right {
+    margin-top: 1.875rem !important;
+  }
+
+  .content-area {
     text-align: center;
+    margin-top: 1.875rem !important;
+
   }
 
   .footer-widget {
@@ -93,7 +110,8 @@
   .Privacy-policy-area {
     text-align: center;
   }
-  .faq-area{
+
+  .faq-area {
     text-align: center;
   }
 

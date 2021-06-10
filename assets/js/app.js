@@ -1,7 +1,7 @@
 (function ($) {
   "use strict";
 
-
+ 
 
   // Scroll to the desired section on click
   // Make sure to add the `data-scroll` attribute to your `<a>` tag.
@@ -86,6 +86,22 @@
 
 }(jQuery));
 
+const preloader = document.querySelector('.preloader');
+
+const fadeEffect = setInterval(() => {
+  // if we don't set opacity 1 in CSS, then   //it will be equaled to "", that's why we   // check it
+  if (!preloader.style.opacity) {
+    preloader.style.opacity = 1;
+  }
+  if (preloader.style.opacity > 0) {
+    preloader.style.opacity -= 0.1;
+  } else {
+    clearInterval(fadeEffect);
+  }
+}, 200);
+
+window.addEventListener('load', fadeEffect);
+
 function check() {
   var checkBox = document.getElementById("checbox");
   var text1 = document.getElementsByClassName("text1");
@@ -106,6 +122,7 @@ function check() {
 
 
 
+
 // Add active class to the current button (highlight it)
 var header = document.getElementById("tabs-click");
 var btns = header.getElementsByClassName("tabs-click");
@@ -116,3 +133,7 @@ for (var i = 0; i < btns.length; i++) {
   this.className += " active";
   });
 }
+
+
+
+  
