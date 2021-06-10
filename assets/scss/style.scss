@@ -94,6 +94,18 @@ Primary use:  Religion Website
 @import'template/posts';
 @import'template/tab';
 
+.typofix { 
+	--background-color: #F3F6FA;
+	--border-color: #e3e4e4;
+	--color: #51555d;
+	--blockquote-color: #f44336;
+	--mark-color: #ffeb3b;
+	--body-line-height: 1.7;
+	--heading-line-height: 1.3;
+	--base-font-size: 16px;
+	text-rendering: auto;
+}
+
 
 
 
