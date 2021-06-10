@@ -45,13 +45,13 @@ $display-font-weight: 700;
 $border-radius: 10px;
 $border-radius-sm: 3px;
 $border-radius-lg: 20px;
-$box-shadow: 5px 0 30px 20px rgba(0, 0, 0, .05);
-$box-shadow-sm: 0px 5px 6px rgba(0, 0, 0, 0.25);
-$box-shadow-lg: rgba(17, 12, 46, 0.15) 0 10px 101px 0;
+$box-shadow: 0 0 20px -15px #181818;
+$box-shadow-sm: 0 0 15px -10px #181818;
+$box-shadow-lg: 0 0 18px -10px #000000;
 $modal-fade-transform: scale(1);
 $card-border-width:0;
 // Spacing
-$spacer: 0.9375rem;
+$spacer: 0.9375rem; 
 $spacers: ();
 $spacers: map-merge((0: 0,
     1: ($spacer * .25),

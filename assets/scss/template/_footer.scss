@@ -45,14 +45,4 @@
     }
   }
 }
-.footer-top{
-  background-color: $primary;
-  position: relative;
-  overflow: hidden;
-  &::before{
-    content: url(../images/footer-shape.png);
-    position: absolute;
-    left: -20px;
-    bottom: -20px;
-  }
-}
+ 

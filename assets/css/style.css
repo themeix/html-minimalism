@@ -46,7 +46,7 @@ Primary use:  Religion Website
   .post-style-3 .post-content {
     width: unset !important;
     background-color: #ffffff !important;
-    box-shadow: 0px 5px 6px rgba(0, 0, 0, 0.25) !important; }
+    box-shadow: 0 0 15px -10px #181818 !important; }
   div#tabs-click ul li a {
     padding: 13px; } }
 
@@ -4266,7 +4266,7 @@ textarea.form-control-lg {
   background-color: rgba(255, 255, 255, 0.85);
   background-clip: padding-box;
   border: 1px solid rgba(0, 0, 0, 0.1);
-  box-shadow: 5px 0 30px 20px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 0 20px -15px #181818;
   border-radius: 10px; }
   .toast:not(.showing):not(.show) {
     opacity: 0; }
@@ -5171,13 +5171,13 @@ textarea.form-control-lg {
   display: none !important; }
 
 .shadow {
-  box-shadow: 5px 0 30px 20px rgba(0, 0, 0, 0.05) !important; }
+  box-shadow: 0 0 20px -15px #181818 !important; }
 
 .shadow-sm {
-  box-shadow: 0px 5px 6px rgba(0, 0, 0, 0.25) !important; }
+  box-shadow: 0 0 15px -10px #181818 !important; }
 
 .shadow-lg {
-  box-shadow: rgba(17, 12, 46, 0.15) 0 10px 101px 0 !important; }
+  box-shadow: 0 0 18px -10px #000000 !important; }
 
 .shadow-none {
   box-shadow: none !important; }
@@ -8973,19 +8973,6 @@ img {
     Header Area
 ==========================================
 */
-.preloader {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  width: 100%;
-  background: #ffffff;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: -9999;
-  transition: opacity 0.3s linear; }
-
 .header-area.fixed {
   position: fixed;
   z-index: 10;
@@ -9015,7 +9002,7 @@ img {
     .header-navbar .navbar-nav li .dropdown-menu {
       margin: 0;
       padding: 0;
-      box-shadow: 5px 0 30px 20px rgba(0, 0, 0, 0.05);
+      box-shadow: 0 0 20px -15px #181818;
       border: 0;
       display: unset;
       opacity: 0;
@@ -9073,7 +9060,7 @@ img {
       transform: rotate(45deg); }
   .mean-container .mean-bar .mean-nav {
     background-color: #f5f5f5;
-    box-shadow: 5px 0 30px 20px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 0 20px -15px #181818;
     position: absolute;
     margin-top: 5px;
     max-height: 700px;
@@ -9106,7 +9093,7 @@ img {
          object-fit: contain; }
   .header-navbar .search-form {
     width: 300px;
-    box-shadow: 5px 0 30px 20px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 0 20px -15px #181818;
     background-color: #ffffff;
     z-index: 10;
     display: none;
@@ -9174,7 +9161,7 @@ img {
 
 .sticky {
   background-color: #f5f5f5;
-  box-shadow: 5px 0 30px 20px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 0 20px -15px #181818;
   position: fixed;
   top: 0 !important;
   -webkit-animation: header-top 0.5s ease;
@@ -9291,7 +9278,7 @@ img {
 .post-style-hover {
   transition: .5s; }
   .post-style-hover:hover {
-    box-shadow: 5px 0 30px 20px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 0 20px -15px #181818;
     transition: .5s; }
 
 .post-tab .nav-link {
@@ -9304,13 +9291,6 @@ img {
   -o-object-fit: cover;
      object-fit: cover;
   width: 140px; }
-
-.post-style-3-image img {
-  height: 155px;
-  max-width: 155px;
-  float: left;
-  -o-object-fit: cover;
-     object-fit: cover; }
 
 .sticky-70 {
   top: 70px; }
@@ -9335,7 +9315,7 @@ img {
   color: #F63C25; }
 
 .testimonials-box {
-  box-shadow: 5px 0 30px 20px rgba(0, 0, 0, 0.05); }
+  box-shadow: 0 0 20px -15px #181818; }
   .testimonials-box i {
     color: #f44336; }
   .testimonials-box img {
@@ -9428,7 +9408,7 @@ input:checked + .slider:before {
   border-radius: 50%; }
 
 .pricing-box {
-  box-shadow: 0px 5px 6px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 0 15px -10px #181818;
   position: relative; }
   .pricing-box .pricing-list i {
     font-size: 10px; }
@@ -9460,7 +9440,7 @@ input:checked + .slider:before {
     width: 204px;
     padding: 5px 0;
     background-color: #f44336;
-    box-shadow: 5px 0 30px 20px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 0 20px -15px #181818;
     color: #ffffff;
     text-transform: uppercase;
     text-align: center; }
@@ -9483,7 +9463,7 @@ input:checked + .slider:before {
 ==========================================
 */
 .tag-countent {
-  box-shadow: 5px 0 30px 20px rgba(0, 0, 0, 0.05); }
+  box-shadow: 0 0 20px -15px #181818; }
 
 /*
 ==========================================
@@ -9491,7 +9471,7 @@ input:checked + .slider:before {
 ==========================================
 */
 .contact-address-box {
-  box-shadow: 0px 5px 6px rgba(0, 0, 0, 0.25); }
+  box-shadow: 0 0 15px -10px #181818; }
 
 .google-map iframe {
   width: 100%;
@@ -9509,10 +9489,10 @@ input:checked + .slider:before {
 .previous-button {
   display: inline-block; }
   .previous-button:hover {
-    box-shadow: 5px 0 30px 20px rgba(0, 0, 0, 0.05); }
+    box-shadow: 0 0 20px -15px #181818; }
 
 .entry-author-bio {
-  box-shadow: 0px 5px 6px rgba(0, 0, 0, 0.25); }
+  box-shadow: 0 0 15px -10px #181818; }
   .entry-author-bio img {
     width: 50px;
     height: 50px;
@@ -9559,25 +9539,30 @@ input:checked + .slider:before {
       background-color: #04B6F2;
       color: #ffffff; }
 
-.footer-top {
-  background-color: #f44336;
-  position: relative;
-  overflow: hidden; }
-  .footer-top::before {
-    content: url(../images/footer-shape.png);
-    position: absolute;
-    left: -20px;
-    bottom: -20px; }
-
 /*
 ==========================================
-    Index-3 Area
+    Posts
 ==========================================
 */
+.post-style-1.border-bottom:last-child {
+  border: 0 !important;
+  margin-bottom: 0 !important; }
+
+.post-style-2.border-bottom:last-child {
+  border: 0 !important;
+  margin-bottom: 0 !important; }
+
+.post-style-3-image img {
+  height: 155px;
+  max-width: 155px;
+  float: left;
+  -o-object-fit: cover;
+     object-fit: cover; }
+
 .post-style-3 {
   position: relative;
   background-color: #ffffff;
-  box-shadow: 0px 5px 6px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 0 20px -15px #181818;
   border-radius: .4rem;
   transition: all .5s ease-in-out;
   display: flex; }
@@ -9595,19 +9580,8 @@ input:checked + .slider:before {
   .post-style-3 .post-content {
     width: calc(100% - 300px);
     padding: 30px 15px; }
-
-/*
-==========================================
-    Posts
-==========================================
-*/
-.post-style-1.border-bottom:last-child {
-  border: 0 !important;
-  margin-bottom: 0 !important; }
-
-.post-style-2.border-bottom:last-child {
-  border: 0 !important;
-  margin-bottom: 0 !important; }
+  .post-style-3:hover {
+    box-shadow: 0 0 18px -10px #000000; }
 
 /*
 ==========================================
