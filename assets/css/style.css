@@ -3,9 +3,9 @@
 
 Project:   Minimalism - HTML Site Template
 Version:    1.0
-Created: 05-22-2021
+Created: 06-11-2021
 Author Name:  themeix
-Primary use:  Religion Website
+Primary use:  Personal Website
 -------------------------------------------------------------------*/
 /*------------------------------------------------------------------
 [Table of contents]
@@ -57,7 +57,16 @@ Primary use:  Religion Website
   ul#pills-tab {
     display: inline-flex; }
   ul.pagination {
-    display: inline-flex; } }
+    display: inline-flex; }
+  .tabs-menu ul li .active:after {
+    display: none !important; }
+  .tabs-menu.border-bottom {
+    border-bottom: none !important; }
+  .tabs-menu ul li a {
+    border: 1px solid #ddd;
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 5px; } }
 
 /* ============================================== 
   Media Query : 575px

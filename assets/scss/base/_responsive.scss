@@ -49,7 +49,19 @@
     display: inline-flex;
   }
  
- 
+
+  .tabs-menu ul li .active:after {
+    display: none!important;
+  }
+  .tabs-menu.border-bottom {
+    border-bottom: none!important;
+  }
+  .tabs-menu ul li a {
+    border: 1px solid #ddd;
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 5px;
+}
 
 }
 
