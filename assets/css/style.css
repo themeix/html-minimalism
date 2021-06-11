@@ -7953,16 +7953,14 @@ li.togglebar.active {
     .side-flyout-nav > ul > li {
       list-style: none;
       border-top: 1px solid #ddd; }
+      .side-flyout-nav > ul > li:last-child {
+        border-bottom: 1px solid #ddd; }
       .side-flyout-nav > ul > li > ul > li {
         border-top: 1px solid #ddd; }
       .side-flyout-nav > ul > li a {
         color: #313131;
         padding: 8px 15px;
         font-weight: 500; }
-    .side-flyout-nav > ul:last-child {
-      border-bottom: 1px solid #ddd; }
-    .side-flyout-nav > ul:last-child {
-      border-bottom: 1px solid #ddd; }
 
 /*
 ==========================================
