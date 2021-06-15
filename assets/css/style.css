@@ -7762,7 +7762,7 @@ html {
   scroll-behavior: smooth; }
 
 body::-webkit-scrollbar {
-  width: .3rem; }
+  width: 5px; }
 
 body::-webkit-scrollbar-track {
   box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
@@ -7941,7 +7941,7 @@ li.togglebar.active {
 .nav-link-collapse:after {
   float: right;
   font-weight: 900;
-  content: "\f067";
+  content: "\f054";
   font-family: "Font Awesome 5 Free";
   font-style: normal;
   font-variant: normal;
@@ -7950,7 +7950,7 @@ li.togglebar.active {
 
 .nav-link-show:after {
   float: right;
-  content: '\f068';
+  content: '\f077';
   font-family: "Font Awesome 5 Free"; }
 
 .nav-item ul.nav-second-level {
@@ -7974,7 +7974,7 @@ li.togglebar.active {
     cursor: pointer; }
 
 .side-flyout-nav {
-  padding-top: 50px; }
+  padding-top: 36px; }
   .side-flyout-nav > ul {
     padding: 0; }
     .side-flyout-nav > ul > li {
