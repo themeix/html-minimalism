@@ -32,7 +32,7 @@
 			height: 100%;
 			-o-object-fit: cover;
 			object-fit: cover;
-			transition: all .5s ease-in-out;
+			 
 			border-radius: 10px 0 0 10px;
 		}
 	}
@@ -44,11 +44,11 @@
 	background-color: $white;
 	box-shadow:none;   
 	 
-	transition: all .5s ease-in-out;
+	transition: box-shadow 500ms ease;
 	display: flex;
     &:hover {
         box-shadow: $box-shadow-sm;   
-		transition: all .5s ease-in-out;
+		transition: box-shadow 500ms ease;
     }
 }
 

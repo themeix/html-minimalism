@@ -31,68 +31,8 @@ Primary use:  Personal Website
 	Contact Area
 	Prayertime Area
 	Footer Area
+	Responsive
 -------------------------------------------------------------------*/
-/* ============================================== 
-  Media Query : 1200px
-============================================== */
-/* ============================================== 
-  Media Query : 991px
-============================================== */
-@media only screen and (max-width: 991px) {
-  .post-style-3 .post-image img {
-    width: 100% !important; }
-  .post-style-3 {
-    display: unset !important; }
-  .post-style-3 .post-content {
-    width: unset !important;
-    background-color: #ffffff !important;
-    box-shadow: 0 0 15px -10px #181818 !important; } }
-
-/* ============================================== 
-  Media Query : 767px
-============================================== */
-@media only screen and (max-width: 767px) {
-  .banner-left:after {
-    display: none; }
-  ul#pills-tab {
-    display: inline-flex; }
-  ul.pagination {
-    display: inline-flex; }
-  .tabs-menu ul li .active:after {
-    display: none !important; }
-  .tabs-menu.border-bottom {
-    border-bottom: none !important; }
-  .tabs-menu ul li a {
-    border: 1px solid #ddd;
-    display: inline-block;
-    margin-top: 10px;
-    margin-right: 5px; } }
-
-/* ============================================== 
-  Media Query : 575px
-============================================== */
-@media only screen and (max-width: 575px) {
-  .site-sidebar {
-    text-align: center; }
-  .footer-area {
-    text-align: center; }
-  .page-title-warpper {
-    margin-top: 1.875rem !important; }
-  .footer-widget {
-    text-align: center; }
-  ul.footer-social-list {
-    margin-top: 1.875rem !important; }
-  .testimonial-title {
-    text-align: center; }
-  .Pagination-area {
-    text-align: center; }
-  .post-right {
-    text-align: center; }
-  .Privacy-policy-area {
-    text-align: center; }
-  .faq-area {
-    text-align: center; } }
-
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -7853,7 +7793,7 @@ a {
 h1 a, .h1 a, h2 a, .h2 a, h3 a, .h3 a, h4 a, .h4 a, h5 a, .h5 a, h6 a, .h6 a,
 .h1, .h2, .h3, .h4, .h5, .h6, h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   color: #122F5B;
-  transition: all 0.2s ease-in-out; }
+  transition: color 500ms ease; }
 
 img {
   max-width: 100%; }
@@ -8040,10 +7980,10 @@ li.togglebar.active {
 */
 .about-bio-box {
   box-shadow: none;
-  transition: ease all 500ms; }
+  transition: box-shadow 500ms ease; }
   .about-bio-box:hover {
     box-shadow: 0 0 15px -10px #181818;
-    transition: ease all 500ms; }
+    transition: box-shadow 500ms ease; }
 
 /*
 ==========================================
@@ -8059,7 +7999,6 @@ li.togglebar.active {
     height: 2px;
     background-color: #122F5B;
     display: block;
-    transition: all .2s ease-in-out;
     position: absolute;
     bottom: -9px; }
 
@@ -8090,10 +8029,10 @@ li.togglebar.active {
      object-fit: cover; }
 
 .post-style-hover {
-  transition: .5s; }
+  transition: box-shadow 500ms ease; }
   .post-style-hover:hover {
     box-shadow: 0 0 20px -15px #181818;
-    transition: .5s; }
+    transition: box-shadow 500ms ease; }
 
 .post-tab .nav-link {
   color: #122F5B; }
@@ -8109,14 +8048,6 @@ li.togglebar.active {
 .sticky-70 {
   top: 70px; }
 
-.btn-link-style-1:hover i {
-  transform: translateX(0px);
-  transition: all ease 500ms; }
-
-.btn-link-style-1 i {
-  transform: translateX(-10px);
-  transition: all ease 500ms; }
-
 /* Style the active class, and buttons on mouse-over */
 /*
 ==========================================
@@ -8125,12 +8056,11 @@ li.togglebar.active {
 */
 .testimonials-box {
   box-shadow: none;
-  transition: ease all 500ms; }
+  transition: box-shadow 500ms ease; }
   .testimonials-box i {
     color: #3b739e; }
   .testimonials-box:hover {
-    box-shadow: 0 0 15px -10px #181818;
-    transition: ease all 500ms; }
+    box-shadow: 0 0 15px -10px #181818; }
   .testimonials-box img {
     width: 70px;
     height: 70px;
@@ -8289,10 +8219,10 @@ input:checked + .slider:before {
 */
 .contact-address-box {
   box-shadow: none;
-  transition: all ease 500ms; }
+  transition: box-shadow 500ms ease; }
   .contact-address-box:hover {
     box-shadow: 0 0 15px -10px #181818;
-    transition: all ease 500ms; }
+    transition: box-shadow 500ms ease; }
 
 .google-map iframe {
   width: 100%;
@@ -8314,15 +8244,14 @@ input:checked + .slider:before {
 
 .entry-author-bio {
   box-shadow: none;
-  transition: all ease 500ms; }
+  transition: box-shadow 500ms ease; }
   .entry-author-bio img {
     width: 50px;
     height: 50px;
     -o-object-fit: cover;
        object-fit: cover; }
   .entry-author-bio:hover {
-    box-shadow: 0 0 15px -10px #181818;
-    transition: all ease 500ms; }
+    box-shadow: 0 0 15px -10px #181818; }
 
 .comment__item .comment-avatar img {
   width: 50px;
@@ -8346,7 +8275,6 @@ input:checked + .slider:before {
     margin: 15px 0; }
     .footer-widget .footer-list li a {
       color: #ffffff;
-      transition: all 0.2s ease-in-out;
       word-break: break-all; }
       .footer-widget .footer-list li a:hover {
         opacity: 0.8; }
@@ -8359,7 +8287,7 @@ input:checked + .slider:before {
     border-radius: 100px;
     text-align: center;
     color: #3b739e;
-    transition: all 0.2s ease-in-out; }
+    transition: background-color 500ms ease; }
     .footer-widget .footer-social li a:hover {
       background-color: #00BDC4;
       color: #ffffff; }
@@ -8388,7 +8316,7 @@ input:checked + .slider:before {
   position: relative;
   background-color: #ffffff;
   box-shadow: none;
-  transition: all .5s ease-in-out;
+  transition: box-shadow 500ms ease;
   display: flex; }
   .post-style-3 .hospital-image {
     position: relative;
@@ -8400,14 +8328,13 @@ input:checked + .slider:before {
     height: 100%;
     -o-object-fit: cover;
     object-fit: cover;
-    transition: all .5s ease-in-out;
     border-radius: 10px 0 0 10px; }
   .post-style-3 .post-content {
     width: calc(100% - 300px);
     padding: 30px; }
   .post-style-3:hover {
     box-shadow: 0 0 15px -10px #181818;
-    transition: all .5s ease-in-out; }
+    transition: box-shadow 500ms ease; }
 
 .author-name {
   font-weight: 500; }
@@ -8427,7 +8354,7 @@ input:checked + .slider:before {
     padding: 10px 15px;
     font-weight: 500;
     color: #122F5B;
-    transition: all ease 500ms; }
+    transition: color 500ms ease; }
     .tabs-menu ul li a:hover {
       color: #3b739e; }
   .tabs-menu ul li .active {
@@ -8439,12 +8366,76 @@ input:checked + .slider:before {
       height: 2px;
       background-color: #3b739e;
       display: block;
-      transition: all .2s ease-in-out;
+      transition: background-color 500ms ease;
       position: absolute;
       top: 44px; }
 
 .tabs-menu .active, .tabs-menu .a:hover {
   color: #3b739e; }
+
+/* ============================================== 
+  Responsive
+============================================== */
+/* ============================================== 
+  Media Query : 1200px
+============================================== */
+/* ============================================== 
+  Media Query : 991px
+============================================== */
+@media only screen and (max-width: 991px) {
+  .post-style-3 .post-image img {
+    width: 100% !important; }
+  .post-style-3 {
+    display: unset !important; }
+  .post-style-3 .post-content {
+    width: unset !important;
+    background-color: #ffffff !important;
+    box-shadow: 0 0 15px -10px #181818 !important; } }
+
+/* ============================================== 
+  Media Query : 767px
+============================================== */
+@media only screen and (max-width: 767px) {
+  .banner-left:after {
+    display: none; }
+  ul#pills-tab {
+    display: inline-flex; }
+  ul.pagination {
+    display: inline-flex; }
+  .tabs-menu ul li .active:after {
+    display: none !important; }
+  .tabs-menu.border-bottom {
+    border-bottom: none !important; }
+  .tabs-menu ul li a {
+    border: 1px solid #ddd;
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 5px; } }
+
+/* ============================================== 
+  Media Query : 575px
+============================================== */
+@media only screen and (max-width: 575px) {
+  .site-sidebar {
+    text-align: center; }
+  .footer-area {
+    text-align: center; }
+  .page-title-warpper {
+    margin-top: 1.875rem !important; }
+  .footer-widget {
+    text-align: center; }
+  ul.footer-social-list {
+    margin-top: 1.875rem !important; }
+  .testimonial-title {
+    text-align: center; }
+  .Pagination-area {
+    text-align: center; }
+  .post-right {
+    text-align: center; }
+  .Privacy-policy-area {
+    text-align: center; }
+  .faq-area {
+    text-align: center; } }
 
 .typofix {
   --background-color: #F3F6FA;

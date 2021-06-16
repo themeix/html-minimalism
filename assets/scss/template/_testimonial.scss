@@ -13,11 +13,11 @@
         color: $primary;
     }
     box-shadow: none;
-    transition: ease all 500ms;
+    transition: box-shadow 500ms ease;
 
     &:hover {
         box-shadow: $box-shadow-sm;
-        transition: ease all 500ms;
+    
 
     }
 

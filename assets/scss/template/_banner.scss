@@ -13,7 +13,7 @@
     height: 2px;
     background-color: $dark;
     display: block;
-    transition: all .2s ease-in-out;
+
     position: absolute;
     bottom: -9px;
   }
@@ -58,11 +58,11 @@
 }
 
 .post-style-hover {
-  transition: .5s;
+  transition: box-shadow 500ms ease;
 
   &:hover {
     box-shadow: $box-shadow;
-    transition: .5s;
+    transition: box-shadow 500ms ease;
 
   }
 
@@ -99,19 +99,6 @@
 
 
 
-
-
-.btn-link-style-1:hover i {
-  transform: translateX(0px);
-  transition: all ease 500ms;
-}
- 
- 
-
-.btn-link-style-1 i {
-  transform: translateX(-10px);
-  transition: all ease 500ms;
-}
 
 
 

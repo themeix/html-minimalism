@@ -33,12 +33,13 @@ Primary use:  Personal Website
 	Contact Area
 	Prayertime Area
 	Footer Area
+	Responsive
 -------------------------------------------------------------------*/
  
 // Bootstrap Component  
  
 @import'base/bootstrap-customizer';
-@import'base/responsive';
+
 
 // Bootstrap Component
 
@@ -95,6 +96,7 @@ Primary use:  Personal Website
 @import'template/footer';
 @import'template/posts';
 @import'template/tab';
+@import'base/responsive';
 
 .typofix { 
 	--background-color: #F3F6FA;

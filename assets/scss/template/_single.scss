@@ -21,10 +21,10 @@
   }
  
   box-shadow: none; 
-  transition: all ease 500ms;
+  transition: box-shadow 500ms ease;
   &:hover {
     box-shadow: $box-shadow-sm; 
-    transition: all ease 500ms;
+
   }
 }
 
