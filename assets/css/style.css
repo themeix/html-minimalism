@@ -8158,8 +8158,12 @@ li.togglebar.active {
       background-color: #f5f5f5;
       position: relative;
       border-radius: 10px;
+      color: #122F5B;
       border: 1px solid #f5f5f5;
-      font-weight: 500; }
+      font-weight: 500;
+      padding-right: 40px; }
+      .faq-accordion .card .card-header button:hover {
+        color: #3b739e; }
       .faq-accordion .card .card-header button:after, .faq-accordion .card .card-header button:before {
         content: '';
         width: 1rem;

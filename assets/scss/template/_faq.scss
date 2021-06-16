@@ -19,8 +19,13 @@
            background-color: $light;
            position:relative;
            border-radius: $border-radius;
+           color : $dark;
            border: 1px solid $light;
            font-weight: $font-weight-medium;
+           padding-right: 40px;
+           &:hover {
+              color: $primary;
+           }
               &:after,&:before{
                  content:'';
                  width: 1rem;
