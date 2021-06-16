@@ -2,36 +2,29 @@
 [Master Stylesheet]
 
 Project:   Minimalism - HTML Site Template
-Version:    1.0
-Created: 06-11-2021
+Version:    1.0.7
+Created: 06-16-2021
 Author Name:  themeix
 Primary use:  Personal Website
 -------------------------------------------------------------------*/
 
 
+
 /*------------------------------------------------------------------
 [Table of contents]
-	Bootstrap
 	Primary Controls
-	Header Area
-	Page Title Area
+	Nav bar 
+	Sidenav Area
+	About Bio Area
 	Banner Area
-	About Area
-	Service Area
 	Testimonial Area
-	Team Area
-	Blog Area
-	Event Area
-	Call To Action Area	
-	Campaign Area
-	Video Area 
-	Course Area
-	Counter Area
-	Donate Area
-	maintain Area
 	Faq Area
+	Pricing Area
+	Tag Area
 	Contact Area
-	Prayertime Area
+	Single Page
+	Posts
+	Tabs
 	Footer Area
 	Responsive
 -------------------------------------------------------------------*/
@@ -93,9 +86,9 @@ Primary use:  Personal Website
 @import'template/tag';
 @import'template/contact';
 @import'template/single';
-@import'template/footer';
 @import'template/posts';
 @import'template/tab';
+@import'template/footer';
 @import'base/responsive';
 
 .typofix { 

@@ -2,34 +2,26 @@
 [Master Stylesheet]
 
 Project:   Minimalism - HTML Site Template
-Version:    1.0
-Created: 06-11-2021
+Version:    1.0.7
+Created: 06-16-2021
 Author Name:  themeix
 Primary use:  Personal Website
 -------------------------------------------------------------------*/
 /*------------------------------------------------------------------
 [Table of contents]
-	Bootstrap
 	Primary Controls
-	Header Area
-	Page Title Area
+	Nav bar 
+	Sidenav Area
+	About Bio Area
 	Banner Area
-	About Area
-	Service Area
 	Testimonial Area
-	Team Area
-	Blog Area
-	Event Area
-	Call To Action Area	
-	Campaign Area
-	Video Area 
-	Course Area
-	Counter Area
-	Donate Area
-	maintain Area
 	Faq Area
+	Pricing Area
+	Tag Area
 	Contact Area
-	Prayertime Area
+	Single Page
+	Posts
+	Tabs
 	Footer Area
 	Responsive
 -------------------------------------------------------------------*/
@@ -8234,7 +8226,7 @@ input:checked + .slider:before {
 
 /*
 ==========================================
-    Single Area
+    Single Page
 ==========================================
 */
 .previous-button {
@@ -8258,39 +8250,6 @@ input:checked + .slider:before {
   height: 50px;
   -o-object-fit: cover;
   object-fit: cover; }
-
-/*
-==========================================
-    Footer Area
-==========================================
-*/
-.footer-widget {
-  position: relative;
-  z-index: 2; }
-  .footer-widget .footer-brand {
-    display: block; }
-    .footer-widget .footer-brand img {
-      height: 55px; }
-  .footer-widget .footer-list li {
-    margin: 15px 0; }
-    .footer-widget .footer-list li a {
-      color: #ffffff;
-      word-break: break-all; }
-      .footer-widget .footer-list li a:hover {
-        opacity: 0.8; }
-  .footer-widget .footer-social li a {
-    background-color: #ffffff;
-    width: 30px;
-    height: 30px;
-    padding: 4px 0;
-    display: block;
-    border-radius: 100px;
-    text-align: center;
-    color: #3b739e;
-    transition: background-color 500ms ease; }
-    .footer-widget .footer-social li a:hover {
-      background-color: #00BDC4;
-      color: #ffffff; }
 
 /*
 ==========================================
@@ -8372,6 +8331,39 @@ input:checked + .slider:before {
 
 .tabs-menu .active, .tabs-menu .a:hover {
   color: #3b739e; }
+
+/*
+==========================================
+    Footer Area
+==========================================
+*/
+.footer-widget {
+  position: relative;
+  z-index: 2; }
+  .footer-widget .footer-brand {
+    display: block; }
+    .footer-widget .footer-brand img {
+      height: 55px; }
+  .footer-widget .footer-list li {
+    margin: 15px 0; }
+    .footer-widget .footer-list li a {
+      color: #ffffff;
+      word-break: break-all; }
+      .footer-widget .footer-list li a:hover {
+        opacity: 0.8; }
+  .footer-widget .footer-social li a {
+    background-color: #ffffff;
+    width: 30px;
+    height: 30px;
+    padding: 4px 0;
+    display: block;
+    border-radius: 100px;
+    text-align: center;
+    color: #3b739e;
+    transition: background-color 500ms ease; }
+    .footer-widget .footer-social li a:hover {
+      background-color: #00BDC4;
+      color: #ffffff; }
 
 /* ============================================== 
   Responsive
