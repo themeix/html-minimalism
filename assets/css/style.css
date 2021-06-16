@@ -8030,6 +8030,9 @@ li.togglebar.active {
         padding: 8px 15px;
         font-weight: 500; }
 
+.menuDisplayed div#page-content-wrapper {
+  opacity: 0.2; }
+
 /*
 ==========================================
     About Bio Area
