@@ -8114,9 +8114,13 @@ li.togglebar.active {
   color: #3b739e; }
 
 .testimonials-box {
-  box-shadow: 0 0 20px -15px #181818; }
+  box-shadow: none;
+  transition: ease all 500ms; }
   .testimonials-box i {
     color: #3b739e; }
+  .testimonials-box:hover {
+    box-shadow: 0 0 15px -10px #181818;
+    transition: ease all 500ms; }
   .testimonials-box img {
     width: 70px;
     height: 70px;
