@@ -8032,6 +8032,18 @@ li.togglebar.active {
 
 /*
 ==========================================
+    About Bio Area
+==========================================
+*/
+.about-bio-box {
+  box-shadow: none;
+  transition: ease all 500ms; }
+  .about-bio-box:hover {
+    box-shadow: 0 0 15px -10px #181818;
+    transition: ease all 500ms; }
+
+/*
+==========================================
     Banner Area
 ==========================================
 */
@@ -8108,11 +8120,6 @@ li.togglebar.active {
     Testimonial Area
 ==========================================
 */
-.nav-pills .nav-link.active,
-.nav-pills .show > .nav-link {
-  background-color: transparent;
-  color: #3b739e; }
-
 .testimonials-box {
   box-shadow: none;
   transition: ease all 500ms; }

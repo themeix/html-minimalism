@@ -1,0 +1,17 @@
+/*
+==========================================
+    About Bio Area
+==========================================
+*/
+.about-bio-box {
+   
+  box-shadow: none;
+  transition: ease all 500ms;
+
+  &:hover {
+      box-shadow: $box-shadow-sm;
+      transition: ease all 500ms;
+
+  }
+ 
+}
