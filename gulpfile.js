@@ -34,17 +34,15 @@
     './dist/production/assets/css/all.min.css',
     './dist/production/assets/css/aos.css',
     './dist/production/assets/css/prism.css',
-    './dist/production/assets/css/meanmenu.min.css',
     './dist/production/assets/css/animate.min.css',
-    './dist/production/typography-fix/typofix.css',
-    './dist/production/assets/css/styles.css'
+    './dist/production/assets/css/typofix.css',
+    './dist/production/assets/css/style.css'
     ];	
     var Production_JS_Files = [
     './dist/production/assets/js/jquery.min.js',
     './dist/production/assets/js/popper.min.js', 
     './dist/production/assets/js/bootstrap.min.js', 
-    './dist/production/assets/js/jquery.easing.min.js',       
-    './dist/production/assets/js/jquery.meanmenu.min.js',     
+    './dist/production/assets/js/jquery.easing.min.js',      
     './dist/production/assets/js/aos.js',
     './dist/production/assets/js/prism.js',
     './dist/production/assets/js/app.js'
@@ -102,7 +100,6 @@
     gulp.task('copy_all_files', function(done) {
         return gulp.src([
                 './**/*',
-                '!.editorconfig',
                 '!.jshintignore',
                 '!.jshintrc',
                 '!bower.json',
@@ -221,7 +218,7 @@
     gulp.task('zip', function(done) {
         gulp.src([
                 './**/*',
-                '.editorconfig',
+               
                 '.jshintignore',
                 '.jshintrc',
                 '!.gitattributes',
