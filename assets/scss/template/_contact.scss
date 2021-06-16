@@ -6,7 +6,12 @@
 
 
 .contact-address-box{
-  box-shadow: $box-shadow-sm;
+  box-shadow: none;
+  transition: all ease 500ms;
+  &:hover {
+    box-shadow: $box-shadow-sm;
+    transition: all ease 500ms;
+  }
 }
 
 .google-map iframe {

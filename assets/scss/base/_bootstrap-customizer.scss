@@ -1,16 +1,16 @@
 // Color 
-$primary:#f44336;
-$secondary:#51555d;
-$success:#169638;
-$danger:#F63C25;
-$warning:#FFD400;
-$info: #04B6F2;
+$primary:#3b739e;
+$secondary:#556775;
+$success:#63A31B;
+$danger:#DD2C2C;
+$warning:#EF8700;
+$info: #00BDC4;
 $light:#f5f5f5;
-$dark:#313131;
+$dark:#122F5B;
 $white:#ffffff;
 $muted: #7e8898;
 $link: $danger;
-$link-hover-color:$danger;
+$link-hover-color:$primary;
 $text-muted: $muted;
 $body-color:$secondary;
 
@@ -21,14 +21,14 @@ $input-bg: transparent;
 $input-placeholder-color: lighten($secondary, 50%);
 // Typography
 
-$font-size-base: 1rem;
+$font-size-base: 1.1rem;
 $font-family-base: 'Ubuntu', sans-serif;
 $headings-font-family:'Kanit', sans-serif;
 $font-weight-bold: 700;
 $headings-font-weight: 800;
 $font-weight-normal: 400;
 $font-weight-medium: 500;
-$line-height-base: 1.6;
+$line-height-base: 1.7;
 $headings-line-height: 1.2;
 $headings-color: $secondary;
 $h1-font-size: $font-size-base * 2.5;
