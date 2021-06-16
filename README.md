@@ -1,3 +1,3 @@
 # html-minimalism
 
-https://demo.vitathemes.com/meliora/
+https://html-minimalism.netlify.app/
