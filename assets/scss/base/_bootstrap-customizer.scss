@@ -1,6 +1,6 @@
 // Color 
 $primary:#3b739e;
-$secondary:#556775;
+$secondary:#626971;
 $success:#63A31B;
 $danger:#DD2C2C;
 $warning:#EF8700;
@@ -21,13 +21,13 @@ $input-bg: transparent;
 $input-placeholder-color: lighten($secondary, 50%);
 // Typography
 
-$font-size-base: 1.1rem;
-$font-family-base: 'Ubuntu', sans-serif;
-$headings-font-family:'Kanit', sans-serif;
+$font-size-base: 1rem;
+$font-family-base: 'Open Sans', sans-serif;
+$headings-font-family:'Manrope', sans-serif;
 $font-weight-bold: 700;
 $headings-font-weight: 800;
 $font-weight-normal: 400;
-$font-weight-medium: 500;
+$font-weight-medium: 600;
 $line-height-base: 1.7;
 $headings-line-height: 1.2;
 $headings-color: $secondary;
