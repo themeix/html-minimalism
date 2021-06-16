@@ -1,3 +1,3 @@
 # html-minimalism
 
-https://html-minimalism.netlify.app/
+Live demo : https://html-minimalism.netlify.app/
