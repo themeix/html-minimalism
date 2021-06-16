@@ -8373,8 +8373,7 @@ input:checked + .slider:before {
 .post-style-3 {
   position: relative;
   background-color: #ffffff;
-  box-shadow: 0 0 20px -15px #181818;
-  border-radius: .4rem;
+  box-shadow: none;
   transition: all .5s ease-in-out;
   display: flex; }
   .post-style-3 .hospital-image {
@@ -8387,12 +8386,14 @@ input:checked + .slider:before {
     height: 100%;
     -o-object-fit: cover;
     object-fit: cover;
-    transition: all .5s ease-in-out; }
+    transition: all .5s ease-in-out;
+    border-radius: 10px 0 0 10px; }
   .post-style-3 .post-content {
     width: calc(100% - 300px);
     padding: 30px; }
   .post-style-3:hover {
-    box-shadow: 0 0 18px -10px #000000; }
+    box-shadow: 0 0 15px -10px #181818;
+    transition: all .5s ease-in-out; }
 
 .author-name {
   font-weight: 500; }

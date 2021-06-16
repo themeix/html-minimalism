@@ -18,11 +18,13 @@
     object-fit: cover;
   }
   .post-style-3 {
+	
 	.hospital-image {
 		position: relative;
 		overflow: hidden;
 		max-height: 320px;
 		width: 300px;
+	
 	}
 	.post-image {
 		img {
@@ -31,6 +33,7 @@
 			-o-object-fit: cover;
 			object-fit: cover;
 			transition: all .5s ease-in-out;
+			border-radius: 10px 0 0 10px;
 		}
 	}
 	.post-content {
@@ -39,12 +42,13 @@
 	}
 	position: relative;
 	background-color: $white;
-	box-shadow: $box-shadow; 
-	border-radius: .4rem;
+	box-shadow:none;   
+	 
 	transition: all .5s ease-in-out;
 	display: flex;
     &:hover {
-        box-shadow: $box-shadow-lg;   
+        box-shadow: $box-shadow-sm;   
+		transition: all .5s ease-in-out;
     }
 }
 
