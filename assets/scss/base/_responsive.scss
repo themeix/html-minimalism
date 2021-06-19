@@ -27,7 +27,7 @@
 
   .post-style-3 .post-content {
     width: unset !important;
-    background-color: $white !important;
+    background-color:var(--bs-white)!important;
     box-shadow: $box-shadow-sm !important;
   }
 

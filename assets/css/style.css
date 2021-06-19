@@ -65,7 +65,7 @@ Primary use:  Personal Website
   --bs-info: #28a745;
   --bs-warning: #ffc107;
   --bs-danger: #fd8c54;
-  --bs-light: #343b45;
+  --bs-light: #070e1b;
   --bs-white: #03060c;
   --bs-dark: #77849e; }
 
@@ -8944,7 +8944,7 @@ html {
   scroll-behavior: smooth; }
 
 body::-webkit-scrollbar {
-  width: 5px; }
+  width: 8px; }
 
 body::-webkit-scrollbar-track {
   box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
@@ -9030,13 +9030,13 @@ img {
   opacity: .7; }
 
 .bg-muted {
-  background-color: #e8e8e8;
+  background-color: var(--bs-gray);
   font-weight: normal;
   border-radius: 2px;
   text-transform: capitalize; }
 
 .btn.text-white {
-  color: #fff !important; }
+  color: var(--bs-white) !important; }
   .btn.text-white:hover {
     color: var(--bs-white) !important; }
 
@@ -9044,8 +9044,8 @@ img {
   font-weight: 400; }
 
 .typofix {
-  --background-color: #F3F6FA;
-  --border-color: #e3e4e4;
+  --background-color: var(--bs-white);
+  --border-color: var(--bs-light);
   --color: #51555d;
   --blockquote-color: #f44336;
   --mark-color: #ffeb3b;
@@ -9474,7 +9474,7 @@ input:checked + .slider:before {
   text-decoration: none; }
 
 .previous-button a, .next-button a {
-  color: #fff; }
+  color: var(--bs-white); }
 
 /*
 ==========================================
@@ -9606,7 +9606,7 @@ input:checked + .slider:before {
     display: unset !important; }
   .post-style-3 .post-content {
     width: unset !important;
-    background-color: #fff !important;
+    background-color: var(--bs-white) !important;
     box-shadow: 0 0 15px -10px #181818 !important; } }
 
 /* ============================================== 
