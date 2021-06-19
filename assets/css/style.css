@@ -9448,6 +9448,7 @@ input:checked + .slider:before {
     box-shadow: 0 0 20px -15px #181818; }
 
 .entry-author-bio {
+  background-color: transparent;
   box-shadow: none;
   transition: box-shadow 500ms ease; }
   .entry-author-bio img {
@@ -9463,6 +9464,15 @@ input:checked + .slider:before {
   height: 50px;
   -o-object-fit: cover;
   object-fit: cover; }
+
+.comment__item .comment-content .btn {
+  background-color: var(--bs-light);
+  border-color: var(--bs-light);
+  color: var(--bs-secondary);
+  text-decoration: none; }
+
+.previous-button a, .next-button a {
+  color: #fff; }
 
 /*
 ==========================================
