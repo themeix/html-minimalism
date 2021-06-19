@@ -16,7 +16,7 @@
 			ul {			
 				
 				li.togglebar {
-					display: flex;
+					display: inline-flex;
 					justify-content: center;
 					align-items: center;
 					flex-direction: column;
@@ -33,7 +33,7 @@
 						height: 3px;
 						margin: 2px 0;
 						transition: 0.5s;
-						background:$dark;
+						background: var(--bs-dark);
 					}
 					
 				}
@@ -46,8 +46,13 @@
             opacity: 0;
             visibility: hidden;
         }
-
- 
+		ul.menu-toogle-wrapper{
+			display: inline-flex;
+			align-items: center;
+		}
+		a.color-mode__btn i {
+			color: var(--bs-dark);
+		}
 
 
 
