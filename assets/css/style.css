@@ -8921,6 +8921,25 @@ textarea.form-control-lg {
     Primary Controls
 ==========================================
 */
+@keyframes fadein {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+/* Firefox < 16 */
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+/* Internet Explorer */
+
+/* Opera < 12.1 */
+
 html {
   scroll-behavior: smooth; }
 
@@ -8943,25 +8962,6 @@ body::-moz-selection {
 body::selection {
   background-color: var(--bs-success);
   color: var(--bs-light); }
-
-@keyframes fadein {
-  from {
-    opacity: 0; }
-  to {
-    opacity: 1; } }
-
-/* Firefox < 16 */
-
-/* Safari, Chrome and Opera > 12.1 */
-@-webkit-keyframes fadein {
-  from {
-    opacity: 0; }
-  to {
-    opacity: 1; } }
-
-/* Internet Explorer */
-
-/* Opera < 12.1 */
 
 body {
   -webkit-animation: fadein 2s;
