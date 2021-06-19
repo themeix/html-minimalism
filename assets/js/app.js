@@ -89,30 +89,30 @@
 if (window.CSS && CSS.supports("color", "var(--primary)")) {
   var toggleColorMode = function toggleColorMode(e) {
     if (e.currentTarget.classList.contains("light--hidden")) {
-      document.documentElement.setAttribute("color-mode", "light"); 
+      document.documentElement.setAttribute("data-color", "light"); 
 
-      localStorage.setItem("color-mode", "light");
+      localStorage.setItem("data-color", "light");
       return;
     }
-    document.documentElement.setAttribute("color-mode", "dark"); 
-    localStorage.setItem("color-mode", "dark");
+    document.documentElement.setAttribute("data-color", "dark"); 
+    localStorage.setItem("data-color", "dark");
   };
-  var toggleColorButtons = document.querySelectorAll(".color-mode__btn");
+  var toggleColorButtons = document.querySelectorAll(".data-color__btn");
   toggleColorButtons.forEach(function(btn) {
     btn.addEventListener("click", toggleColorMode);
   });
 } else {
-  var btnContainer = document.querySelector(".color-mode__header");
+  var btnContainer = document.querySelector(".data-color__header");
   btnContainer.style.display = "none";
 }
 /  Match color to Dark  /
 
 if (
-  localStorage.getItem("color-mode") === "dark" ||
+  localStorage.getItem("data-color") === "dark" ||
   (window.matchMedia("(prefers-color-scheme: dark)").matches &&
-    !localStorage.getItem("color-mode"))
+    !localStorage.getItem("data-color"))
 ) {
-  document.documentElement.setAttribute("color-mode", "dark");
+  document.documentElement.setAttribute("data-color", "dark");
 }
 
 }(jQuery));

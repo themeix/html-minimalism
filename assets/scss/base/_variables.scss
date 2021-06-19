@@ -1,6 +1,6 @@
 // color mode light
 $colors: (
-  "blue":       #0d6efd,
+  "blue":       #0674E7,
   "indigo":     #6610f2,
   "purple":     #6f42c1,
   "pink":       #d63384,
@@ -10,7 +10,7 @@ $colors: (
   "green":      #198754,
   "teal":       #20c997,
   "cyan":       #0dcaf0,
-  "gray":       #848e9f, 
+  "gray":       #dee2e6,  
 ) !default;
 $theme-colors: (
   "primary": #3b739e,
@@ -26,7 +26,7 @@ $theme-colors: (
 
 // color mode light
 $colors-dark: (
-  "blue":       #0d6efd,
+  "blue":       #0674E7,
   "indigo":     #6610f2,
   "purple":     #6f42c1,
   "pink":       #d63384,
@@ -36,23 +36,25 @@ $colors-dark: (
   "green":      #198754,
   "teal":       #20c997,
   "cyan":       #0dcaf0,
-  "gray":       #848e9f, 
+  "gray":       #4b535f, 
 ) !default;
-$theme-colors-dark: (
-  "primary": #3b739e,
-  "secondary":#626971, 
-  "success": #63A31B,    
-  "info":    #00BDC4,  
-  "warning": #EF8700, 
-  "danger":  #DD2C2C, 
-  "light":   #f5f5f5,      
-  "dark":    #122F5B,  
-  "white":   #ffffff,       
+$theme-colors-dark: (  
+  "primary":   #ffffff,
+  "secondary":  #e6e6e6,  
+  "success":   #c172ea, 
+  "info":     #28a745,
+  "warning":   #ffc107,
+  "danger":    #fd8c54,
+  "light":  #343b45,
+  "white": #2c323c,  
+  "dark": #ffffff,    
 ) !default;        
 // body color          
-$body-color: var(--bs-secondary);   
+$body-color: var(--bs-secondary);    
+$link-hover-color:  var(--bs-blue); 
 // Forms
 $input-bg: transparent;
+$input-border-color: var(--bs-gray); 
 // Typography
 $font-size-base: 1rem;
 $font-family-base: 'Open Sans', sans-serif;
@@ -96,6 +98,8 @@ $spacers: map-merge((0: 0,
     9: ($spacer * 7),
     10: ($spacer * 8)),
   $spacers);
+// Component
+$border-color:  var(--bs-gray); 
 // Buttons
 $btn-font-weight: $font-weight-medium;
 $input-btn-padding-y: .6rem;

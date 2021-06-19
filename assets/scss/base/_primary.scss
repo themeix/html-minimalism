@@ -7,6 +7,9 @@
 html {
   scroll-behavior: smooth;
 }
+body{
+  background-color: var(--bs-white);  
+}
 body::-webkit-scrollbar {
     width: 5px;
 }
@@ -15,18 +18,18 @@ body::-webkit-scrollbar-track {
     border-radius: 0;
 }
 body::-webkit-scrollbar-thumb {
-    background-color: $primary; 
+    background-color: var(--bs-primary); 
     border-radius: 0;
-    color:$light; 
+    color:var(--bs-light);  
 }
 body::-moz-selection { 
-  background-color: $primary; 
-  color:$light;
+  background-color: var(--bs-primary); 
+  color:var(--bs-light);
 }
 
 body::selection {
-  background-color: $success; 
-  color:$light;
+  background-color: var(--bs-success); 
+  color:var(--bs-light); 
 }
 @keyframes fadein {
   from { opacity: 0; }
@@ -95,7 +98,7 @@ img{
     bottom: 0;
     left: 0;
     right: 0;
-    background: $primary;
+    background: var(--bs-primary); 
     -webkit-transform: scaleX(0);
     transform: scaleX(0);
     -webkit-transform-origin: 50%;
@@ -108,7 +111,7 @@ img{
     transition-timing-function: ease-out;
   }
   &:hover{
-    color: $white !important;
+    color: var(--bs-white) !important;  
      &:before{
       -webkit-transform: scaleX(1);
       transform: scaleX(1);
@@ -137,8 +140,11 @@ img{
   border-radius: 2px;
   text-transform: capitalize;
 } 
-.btn-blue {
-  background-color:#0674E7 ;
+.btn.text-white{
+   color: $white !important;  
+   &:hover{
+     color: var(--bs-white)!important; 
+   }
 }
 .badge {
   font-weight: $font-weight-normal;

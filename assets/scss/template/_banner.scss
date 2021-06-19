@@ -5,50 +5,39 @@
 */
 .post-tab .nav-link.active {
   position: relative;
-
   &:after {
     content: '';
     position: absolute;
     width: 40px;
     height: 2px;
-    background-color: $dark;
+    background-color: var(--bs-dark);
     display: block;
-
     position: absolute;
     bottom: -9px;
   }
 }
-
 .page-link {
   background-color: transparent;
   border: 0;
-
   &:hover {
-    color: $primary;
+    color: var(--bs-primary);
     background: transparent;
-
   }
 }
-
-
-
 .back-to-top{
   position: absolute;
   left: 0;
   right: 0;
   a{
-    background: $white;
+    background: var(--bs-white);
     padding: 25px;
     clip-path: polygon(49% 1%, 100% 50%, 50% 100%, 0% 50%);
-
   }
   .back-to-top-icon{
     position: relative;
     top: -11px;
   }
 }
-
-
 .post-style-2{
   img{
     width: 40px;
@@ -56,30 +45,21 @@
     object-fit: cover;
   }
 }
-
 .post-style-hover {
   transition: box-shadow 500ms ease;
-
   &:hover {
     box-shadow: $box-shadow;
     transition: box-shadow 500ms ease;
-
   }
-
-
 }
-
 .post-tab {
   .nav-link {
-    color: $dark;
-
+    color: var(--bs-dark);
     &:hover {
-      color: $primary;
+      color: var(--bs-primary); 
     }
   }
 }
-
-
 .sidebar-logo {
   img {
     height: 140px;
@@ -87,9 +67,6 @@
     width: 140px;
   }
 }
-
-
-
 .sticky-70{
   top: 70px;
 }

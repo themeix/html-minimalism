@@ -6,7 +6,8 @@
 */
 .faq-accordion{
     .card{
-       
+       background-color: transparent; 
+       box-shadow: none;
        border:0;
        margin-bottom:1rem; 
         .card-header{
@@ -16,15 +17,15 @@
             width: 100%;
            text-align: left;
            padding:.5rem 1rem;
-           background-color: $light;
+           background-color: var(--bs-light);
            position:relative;
            border-radius: $border-radius;
-           color : $dark;
-           border: 1px solid $light;
+           color : var(--bs-dark);
+           border: 1px solid $input-border-color;
            font-weight: $font-weight-medium;
            padding-right: 40px;
            &:hover {
-              color: $primary;
+              color:var(--bs-primary);
            }
               &:after,&:before{
                  content:'';
@@ -34,7 +35,7 @@
                  position: absolute;
                  right: 1rem;
                  top: 1.3rem;
-                 background-color:$primary;
+                 background-color:var(--bs-primary);
               }
                &[aria-expanded="false"]{
                &:after{
@@ -44,9 +45,5 @@
               
            }
         }
-        .card-body{
- 
-        }
-         
     }
  }

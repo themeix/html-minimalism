@@ -3,31 +3,21 @@
     Testimonial Area
 ==========================================
 */
-.nav-pills .nav-link.active,
-.nav-pills .show>.nav-link {
-  
-}
-
 .testimonials-box {
     i{
-        color: $primary;
+        color: var(--bs-primary);
     }
     box-shadow: none;
     transition: box-shadow 500ms ease;
-
     &:hover {
         box-shadow: $box-shadow-sm;
-    
-
     }
-
     img {
         width: 70px;
         height: 70px;
         object-fit: cover;
     }
 }
-
 .testimonial-ratting {
     padding: 10px;
 }

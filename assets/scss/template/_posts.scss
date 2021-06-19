@@ -24,7 +24,6 @@
 		overflow: hidden;
 		max-height: 320px;
 		width: 300px;
-	
 	}
 	.post-image {
 		img {
@@ -32,7 +31,6 @@
 			height: 100%;
 			-o-object-fit: cover;
 			object-fit: cover;
-			 
 			border-radius: 10px 0 0 10px;
 		}
 	}
@@ -41,9 +39,8 @@
 		padding: 30px;
 	}
 	position: relative;
-	background-color: $white;
+	background-color: var(--bs-white); 
 	box-shadow:none;   
-	 
 	transition: box-shadow 500ms ease;
 	display: flex;
     &:hover {
@@ -51,11 +48,10 @@
 		transition: box-shadow 500ms ease;
     }
 }
-
 .author-name {
 	font-weight: $font-weight-medium;
 }
 .read-more-link a {
     font-weight: $font-weight-medium;
-    color: $primary;
+    color: var(--bs-primary); 
 }

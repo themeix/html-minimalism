@@ -10,34 +10,29 @@
       a{
         padding: 10px 15px;
         font-weight: $font-weight-medium;        
-        color: $dark;
+        color: var(--bs-dark);
         transition: color 500ms ease;
         &:hover {
-          color: $primary;
+          color: var(--bs-primary);
         }
       }
       .active{
-        
-     
         &:after{
           content: '';
           position: absolute;
           width: 20px;
           height: 2px;
-          background-color: $primary;
+          background-color: var(--bs-primary);
           display: block;
           transition: background-color 500ms ease;
           position: absolute;
          top: 44px;
         }
-        color: $primary;
+        color: var(--bs-primary);
       }
     }
   }
   .active, .a:hover {
-
-    color:$primary;
+    color:var(--bs-primary);
   }
-  
-
 }

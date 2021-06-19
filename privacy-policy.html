@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-color="light">
    <head>
       <meta charset="utf-8">
       <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -24,7 +24,7 @@
             <ul class="sidemenu-list">
                <li class="nav-item">
                   <a  class="nav-link nav-link-collapse" href="index.html"
-                     id="hasSubItems" data-bs-toggle="collapse" data-bs-target="#collapseSubItems2" aria-controls="collapseSubItems2" aria-expanded="false"
+                      data-bs-toggle="collapse" data-bs-target="#collapseSubItems2" aria-controls="collapseSubItems2" aria-expanded="false"
                      >Home</a>
                   <ul class="nav-second-level collapse" id="collapseSubItems2" data-parent="#navAccordion">
                      <li class="nav-item">
@@ -46,7 +46,7 @@
                <li class="nav-item"> <a class="nav-link" href="faq.html">FAQ</a></li>
                <li class="nav-item">
                   <a  class="nav-link nav-link-collapse" href="index.html"
-                     id="hasSubItems" data-bs-toggle="collapse" data-bs-target="#collapseSubItems3" aria-controls="collapseSubItems3" aria-expanded="false"
+                      data-bs-toggle="collapse" data-bs-target="#collapseSubItems3" aria-controls="collapseSubItems3" aria-expanded="false"
                      >Pages</a>
                   <ul class="nav-second-level collapse" id="collapseSubItems3" data-parent="#navAccordion">
                      <li class="nav-item">
@@ -82,8 +82,13 @@
                <nav class="container">
                   <div class="header-navbar navbar">
                      <a class="navbar-brand" href="index.html"><img src="assets/images/logo.png " alt="Logo"></a>
-                     <ul class="menu-toogle-wrapper m-0">
+                     <ul class="menu-toogle-wrapper list-inline m-0">
+                        <li>
+                           <a class="data-color__btn p-1 light--hidden" aria-label="Toggle light mode" > <i class="fas fa-sun"></i>   </a>
+                           <a   class="data-color__btn p-1 dark--hidden" aria-label="Toggle dark mode"> <i class="fas fa-star-half-alt"></i>   </a>
+                         </li>
                         <li class="togglebar">
+                           
                            <span class="line"></span>
                            <span class="line"></span>
                            <span class="line"></span>
@@ -102,7 +107,7 @@
                      <div class="about-bio-box about-bio-box mb-4 p-4 rounded border sticky-70 position-sticky text-center text-lg-start">
                         <div class="site-sidebar position-relative">
                            <div class="sidebar-logo">
-                              <img class="rounded-circle "  data-aos="fade-zoom-in"src="assets/images/sidebar-logo.jpg" alt="sidebar-logo">
+                              <img class="rounded-circle "  data-aos="fade-zoom-in" src="assets/images/sidebar-logo.jpg" alt="sidebar-logo">
                            </div>
                            <h2 class="mt-4">Hi, I'm Jhon</h2>
                            <p class="mt-3">
@@ -283,6 +288,7 @@
                </div>
             </div>
          </footer>
+      </div>
       </div>
       <!--  ====================== Footer Area End  =============================  -->
       <!-- gulp:js -->
