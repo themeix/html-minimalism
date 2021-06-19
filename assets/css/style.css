@@ -26,7 +26,7 @@ Primary use:  Personal Website
 	Responsive
 -------------------------------------------------------------------*/
 :root[data-color="light"] {
-  --bs-blue: #0674E7;
+  --bs-blue: #3B739E;
   --bs-indigo: #6610f2;
   --bs-purple: #6f42c1;
   --bs-pink: #d63384;
@@ -48,7 +48,7 @@ Primary use:  Personal Website
   --bs-white: #ffffff; }
 
 :root[data-color="dark"] {
-  --bs-blue: #0674E7;
+  --bs-blue: #3b739e;
   --bs-indigo: #6610f2;
   --bs-purple: #6f42c1;
   --bs-pink: #d63384;
@@ -59,15 +59,15 @@ Primary use:  Personal Website
   --bs-teal: #20c997;
   --bs-cyan: #0dcaf0;
   --bs-gray: #4b535f;
-  --bs-primary: #ffffff;
-  --bs-secondary: #e6e6e6;
+  --bs-primary: #77849e;
+  --bs-secondary: #6b798a;
   --bs-success: #c172ea;
   --bs-info: #28a745;
   --bs-warning: #ffc107;
   --bs-danger: #fd8c54;
   --bs-light: #343b45;
-  --bs-white: #2c323c;
-  --bs-dark: #ffffff; }
+  --bs-white: #03060c;
+  --bs-dark: #77849e; }
 
 :root[data-color=light] .light--hidden {
   display: none; }
@@ -76,7 +76,7 @@ Primary use:  Personal Website
   display: none; }
 
 :root {
-  --bs-blue: #0674E7;
+  --bs-blue: #3B739E;
   --bs-indigo: #6610f2;
   --bs-purple: #6f42c1;
   --bs-pink: #d63384;

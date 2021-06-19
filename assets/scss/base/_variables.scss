@@ -1,6 +1,6 @@
 // color mode light
 $colors: (
-  "blue":       #0674E7,
+  "blue":       #3B739E,
   "indigo":     #6610f2,
   "purple":     #6f42c1,
   "pink":       #d63384,
@@ -13,20 +13,20 @@ $colors: (
   "gray":       #dee2e6,  
 ) !default;
 $theme-colors: (
-  "primary": #3b739e,
+  "primary":  #3b739e,
   "secondary":#626971, 
-  "success": #63A31B,    
-  "info":    #00BDC4,  
-  "warning": #EF8700, 
-  "danger":  #DD2C2C, 
-  "light":   #f5f5f5,      
-  "dark":    #122F5B,  
-  "white":   #ffffff, 
+  "success":  #63A31B,    
+  "info":     #00BDC4,  
+  "warning":  #EF8700, 
+  "danger":   #DD2C2C, 
+  "light":    #f5f5f5,      
+  "dark":     #122F5B,  
+  "white":    #ffffff, 
 ) !default;
 
-// color mode light
+// color mode dark
 $colors-dark: (
-  "blue":       #0674E7,
+  "blue":       #3b739e,
   "indigo":     #6610f2,
   "purple":     #6f42c1,
   "pink":       #d63384,
@@ -39,15 +39,15 @@ $colors-dark: (
   "gray":       #4b535f, 
 ) !default;
 $theme-colors-dark: (  
-  "primary":   #ffffff,
-  "secondary":  #e6e6e6,  
-  "success":   #c172ea, 
-  "info":     #28a745,
-  "warning":   #ffc107,
-  "danger":    #fd8c54,
-  "light":  #343b45,
-  "white": #2c323c,  
-  "dark": #ffffff,    
+  "primary":    #77849e,
+  "secondary":  #6b798a,  
+  "success":    #c172ea, 
+  "info":       #28a745,
+  "warning":    #ffc107,
+  "danger":     #fd8c54,
+  "light":      #343b45,
+  "white":      #03060c,  
+  "dark":       #77849e,    
 ) !default;        
 // body color          
 $body-color: var(--bs-secondary);    
